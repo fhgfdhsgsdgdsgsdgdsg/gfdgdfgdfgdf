@@ -39,7 +39,7 @@ class Params:
     left_shoulder_drop: float = 0.55  # studs, in torso space
     # Legs stay strictly vertical: only turned toes-out and set slightly apart.
     leg_toe_out: float = D(10.0)  # each leg yawed outward about its own vertical axis
-    leg_spread: float = 0.11  # each leg shifted outward (studs) so the turned legs don't touch
+    leg_spread: float = 0.22  # each leg shifted outward (studs): feet apart, a small gap between the legs
     # Idle motion
     period: float = 5.0
     key_step: float = 0.2

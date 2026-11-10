@@ -60,7 +60,7 @@ from the editor's *…* menu. Every keyframe keys all six R6 joints, so any pose
   about 9° toward the gun. Its hand sits under the barrel, with its end face on the vertical foregrip, which
   shows half out of the hand as in the references. The gun is level, just below shoulder height (bore 0.11 studs
   under the top of the torso). The two hand contacts are 1.41 studs apart along the gun. The legs are strictly
-  vertical with soles flat on the floor. Each is turned 10° toes-out and shifted 0.11 studs outward, so the legs
+  vertical with soles flat on the floor. Each is turned 10° toes-out and shifted 0.22 studs outward, so the legs
   stand apart and their corners poke slightly out from under the torso.
 
 ## The idle motion
