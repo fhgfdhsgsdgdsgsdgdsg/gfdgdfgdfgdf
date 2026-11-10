@@ -29,15 +29,17 @@ class Params:
     torso_lean: float = D(2.0)  # forward lean, pivoting on the hip line
     head_pitch: float = D(-3.0)  # negative looks down
     head_yaw: float = D(0.0)  # relative to the aim line
-    right_arm: tuple[float, float, float] = (D(0), D(84), D(0))  # yaw, pitch, roll (aim space)
+    right_arm: tuple[float, float, float] = (D(0), D(78), D(0))  # yaw, pitch, roll (aim space)
     left_arm_roll: float = D(0)
     hand_point: tuple[float, float, float] = (0.0, -1.0, 0.0)  # right hand on the pistol grip (arm space)
-    # Left hand: the foregrip enters the top of the hand (arm -Z faces up once the arm is raised),
-    # so the support arm sits lower than the gun, as in the references.
-    left_hand_point: tuple[float, float, float] = (0.0, -0.8, -0.32)
-    left_grip_drop: float = 0.25  # left contact height below the pistol-grip hold point (studs)
-    leg_splay: float = D(6.0)  # each leg rolled outward at the R6 hip pivot (feet apart)
-    leg_toe_out: float = D(10.0)  # each leg yawed outward (toes point slightly apart)
+    # Left hand: end face on the foregrip, as with the right hand. The left shoulder is lowered
+    # on its own Motor6D (references show the left arm well below the top of the torso).
+    left_hand_point: tuple[float, float, float] = (0.0, -1.0, 0.0)
+    left_grip_drop: float = 0.0  # left contact height below the pistol-grip hold point (studs)
+    left_shoulder_drop: float = 0.55  # studs, in torso space
+    # Legs stay strictly vertical: only turned toes-out and set slightly apart.
+    leg_toe_out: float = D(10.0)  # each leg yawed outward about its own vertical axis
+    leg_spread: float = 0.11  # each leg shifted outward (studs) so the turned legs don't touch
     # Idle motion
     period: float = 5.0
     key_step: float = 0.2
@@ -59,12 +61,16 @@ class BasePose:
     grip: np.ndarray  # Tool.Grip
 
 
-def _arm_world(side: str, yaw: float, pitch: float, roll: float, torso: np.ndarray) -> np.ndarray:
+def _arm_world(side: str, yaw: float, pitch: float, roll: float, torso: np.ndarray, drop: float = 0.0) -> np.ndarray:
     part = f"{side} Arm"
     r = cf.ry(yaw) @ cf.rx(pitch) @ cf.ry(roll)
-    piv_w = rig.pivot_world(part, torso)
+    piv_w = _shoulder_pivot(part, torso, drop)
     p = piv_w - r[:3, :3] @ rig.pivot_local(part)
     return cf.from_rot(r[:3, :3], p)
+
+
+def _shoulder_pivot(part: str, torso: np.ndarray, drop: float = 0.0) -> np.ndarray:
+    return rig.pivot_world(part, torso) - torso[:3, :3] @ np.array([0.0, drop, 0.0])
 
 
 def _solve_left(params: Params, torso: np.ndarray, target: np.ndarray) -> tuple[float, float]:
@@ -72,7 +78,7 @@ def _solve_left(params: Params, torso: np.ndarray, target: np.ndarray) -> tuple[
     hp = np.array(params.left_hand_point)
 
     def f(v):
-        arm = _arm_world("Left", v[0], v[1], params.left_arm_roll, torso)
+        arm = _arm_world("Left", v[0], v[1], params.left_arm_roll, torso, params.left_shoulder_drop)
         h = cf.point(arm, hp)
         return np.array([h[0] - target[0], h[1] - target[1]])
 
@@ -99,17 +105,14 @@ def torso_world(params: Params, pitch: float = 0.0, yaw: float = 0.0) -> np.ndar
 
 
 def legs_world(params: Params) -> dict[str, np.ndarray]:
-    """Static legs: toes turned out, rolled outward at the hip pivot, then raised so the
-    lowest sole edge rests exactly on the floor (3 studs below the HumanoidRootPart)."""
+    """Static, strictly vertical legs: each turned toes-out about its own vertical axis and
+    shifted outward, so the corners poke slightly out from under the torso. Soles stay flat on
+    the floor, 3 studs below the HumanoidRootPart."""
     base = cf.ry(-params.body_yaw)
     out = {}
     for side, sx in (("Right", 1.0), ("Left", -1.0)):
-        rest = cf.translate(sx * 0.5, -2.0, 0.0)
-        toe = cf.about_point(cf.ry(-sx * params.leg_toe_out), (sx * 0.5, -1.0, 0.0))
-        splay = cf.about_point(cf.rz(sx * params.leg_splay), (sx * 1.0, -1.0, 0.0))
-        leg = splay @ toe @ rest
-        lowest = min(cf.point(leg, (x, -1.0, z))[1] for x in (-0.5, 0.5) for z in (-0.5, 0.5))
-        out[f"{side} Leg"] = base @ cf.translate(0.0, -rig.HRP_HEIGHT - lowest, 0.0) @ leg
+        rest = cf.translate(sx * (0.5 + params.leg_spread), -2.0, 0.0)
+        out[f"{side} Leg"] = base @ rest @ cf.ry(-sx * params.leg_toe_out)
     return out
 
 
@@ -128,7 +131,7 @@ def build_base(params: Params | None = None) -> BasePose:
     p_r = cf.point(rarm, hp)
     target_l = p_r - np.array([0.0, params.left_grip_drop, 0.0])
     ly, lp = _solve_left(params, torso, target_l)
-    larm = _arm_world("Left", ly, lp, params.left_arm_roll, torso)
+    larm = _arm_world("Left", ly, lp, params.left_arm_roll, torso, params.left_shoulder_drop)
     p_l = cf.point(larm, np.array(params.left_hand_point))
     d = float(p_r[2] - p_l[2])
     gun_cf = cf.translate(*p_r)  # gun axes == aim axes: barrel along -Z, level
@@ -194,8 +197,11 @@ def world_at(base: BasePose, t: float) -> dict[str, np.ndarray]:
     ch = channels(p, t)
     torso0 = base.world["Torso"]
     torso = torso_world(p, pitch=ch["torso_pitch"], yaw=ch["torso_yaw"])
-    # Shared shoulder-line rotation (arms + gun as one rigid body).
-    lift = cf.about_point(cf.rx(ch["shoulder_lift"]), (0.0, 0.5, 0.0))
+    # Shared rotation about the line through both shoulder pivots (left one lowered): moves
+    # arms + gun as one rigid body while each arm still turns only about its own shoulder.
+    right_piv = np.array([1.0, 0.5, 0.0])
+    left_piv = np.array([-1.0, 0.5 - p.left_shoulder_drop, 0.0])
+    lift = cf.about_point(cf.axis_angle(right_piv - left_piv, ch["shoulder_lift"]), right_piv)
     upper = torso @ lift @ cf.inv(torso0)
     out = dict(base.world)
     out["Torso"] = torso

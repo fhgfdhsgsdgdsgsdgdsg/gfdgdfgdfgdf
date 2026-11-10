@@ -118,21 +118,21 @@ def build(d: float, stock_back: float = 1.28, fore_drop: float = 0.0) -> list[Gu
     add("FrontSight", "Block", (0.025, 0.09, 0.07), _at(0, BORE_Y + 0.12, muzzle + 0.21), STEEL_LIGHT)
 
     # --- Vertical foregrip at the support-hand point -----------------------
-    # Its raked axis passes exactly through the left-hand contact (0, -fore_drop, -d);
-    # the lower end sits inside the hand.
+    # Its raked axis passes through the left-hand contact (0, -fore_drop, -d): the hand's end
+    # face sits on the grip centreline, so the grip shows half out of the hand as in the references.
     fz = -d
     add("ForegripCollar", "Cylinder", (0.12, 0.29, 0.29), _at(0, BORE_Y, fz, ALONG_Z), GUNMETAL)
     add("ForegripMount", "Block", (0.12, 0.10, 0.14), _at(0, BORE_Y - 0.15, fz), GUNMETAL)
     rake = math.radians(4)
     yh = -fore_drop
-    top, bottom = BORE_Y - 0.10, yh - 0.12
+    top, bottom = BORE_Y - 0.10, yh - 0.40
     yc = (top + bottom) / 2
     grip_cf = _at(0, yc, fz - (yh - yc) * math.tan(rake), cf.rx(rake))
     add("Foregrip", "Block", (0.19, (top - bottom) / math.cos(rake), 0.25), grip_cf, WALNUT, "Wood")
     t_contact = (yh - yc) / math.cos(rake)
     for i in range(3):
         add(f"ForegripRidge{i + 1}", "Block", (0.17, 0.05, 0.03),
-            grip_cf @ cf.translate(0, t_contact + 0.30 + i * 0.12, -0.135), WALNUT_DARK, "Wood")
+            grip_cf @ cf.translate(0, t_contact - 0.26 + i * 0.12, -0.135), WALNUT_DARK, "Wood")
 
     # --- Buttstock ----------------------------------------------------------
     # Length is fitted per pose so the butt plate rests just short of the chest.

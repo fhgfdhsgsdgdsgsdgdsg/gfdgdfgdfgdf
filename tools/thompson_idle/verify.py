@@ -80,7 +80,8 @@ def main() -> int:
     fps = 240
     n = int(round(seq.length * fps))
     left_err, right_err, foot_drift, min_foot = 0.0, 0.0, 0.0, 9.0
-    shoulder_t, neck_t, hip_t = 0.0, 0.0, 0.0
+    shoulder_t, neck_t, hip_t, leg_tilt = 0.0, 0.0, 0.0, 0.0
+    sh0 = None
     muzzle, head_pos, rot_dev = [], [], {p: [] for p in rig.PARTS[1:]}
     stock_clear = 9.0
     feet0 = None
@@ -99,7 +100,12 @@ def main() -> int:
             feet0 = feet
         foot_drift = max(foot_drift, float(np.abs(feet - feet0).max()))
         min_foot = min(min_foot, float(feet[:, 1].min()))
-        shoulder_t = max(shoulder_t, *(float(np.linalg.norm(cf.pos(tr[a]))) for a in ("Right Arm", "Left Arm")))
+        sh = {a: cf.pos(tr[a]) for a in ("Right Arm", "Left Arm")}
+        if sh0 is None:
+            sh0 = sh
+        shoulder_t = max(shoulder_t, *(float(np.linalg.norm(sh[a] - sh0[a])) for a in sh))
+        leg_tilt = max(leg_tilt, *(math.degrees(math.acos(min(1.0, float(w[leg][1, 1]))))
+                                   for leg in ("Right Leg", "Left Leg")))
         neck_t = max(neck_t, float(np.linalg.norm(cf.pos(tr["Head"]))))
         hip_t = max(hip_t, *(float(np.linalg.norm(cf.pos(tr[leg]))) for leg in ("Right Leg", "Left Leg")))
         muzzle.append(cf.point(g, (0, gun.BORE_Y, -(base.d + 0.95))))
@@ -123,7 +129,10 @@ def main() -> int:
     check("left hand locked to foregrip", left_err < 1e-4, f"max error={left_err:.2e} studs")
     check("feet planted", foot_drift < 0.002 and abs(min_foot) < 1e-3,
           f"max foot drift={foot_drift:.2e} studs, sole height={min_foot:.4f}")
-    check("arms rotate only about the shoulder joints", shoulder_t < 1e-6, f"max shoulder offset={shoulder_t:.1e}")
+    check("legs strictly vertical", leg_tilt < 1e-3, f"max leg tilt={leg_tilt:.1e} deg")
+    check("arms turn only about their (fixed) shoulder pivots", shoulder_t < 1e-6,
+          f"pivot drift={shoulder_t:.1e}; shoulder offsets: right={np.linalg.norm(sh0['Right Arm']):.3f}, "
+          f"left={np.linalg.norm(sh0['Left Arm']):.3f} studs (lowered left shoulder)")
     check("head rotates only about the neck", neck_t < 1e-6, f"max neck offset={neck_t:.1e}")
     check("stock never enters torso/head", stock_clear >= base.params.extra["stock_back"],
           f"butt at z={base.params.extra['stock_back']:.3f}, first contact at z>={stock_clear:.3f}")

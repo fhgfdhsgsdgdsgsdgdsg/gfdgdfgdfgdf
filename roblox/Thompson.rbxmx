@@ -4,7 +4,7 @@
 	<Item class="Tool" referent="RBX000001A3">
 		<Properties>
 			<string name="Name">Thompson</string>
-			<CoordinateFrame name="Grip"><X>0</X><Y>-0.69</Y><Z>0.09</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9945219</R11><R12>0.1045285</R12><R20>0</R20><R21>-0.1045285</R21><R22>0.9945219</R22></CoordinateFrame>
+			<CoordinateFrame name="Grip"><X>0</X><Y>-0.69</Y><Z>0.09</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9781476</R11><R12>0.2079117</R12><R20>0</R20><R21>-0.2079117</R21><R22>0.9781476</R22></CoordinateFrame>
 			<bool name="CanBeDropped">false</bool>
 			<bool name="RequiresHandle">true</bool>
 			<bool name="ManualActivationOnly">false</bool>
@@ -59,7 +59,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001DA">
+			<Item class="Weld" referent="RBX000001DE">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>0.185</Y><Z>-0.06</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -93,7 +93,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001DB">
+			<Item class="Weld" referent="RBX000001DF">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>0</Y><Z>0.59</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
@@ -127,7 +127,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001DC">
+			<Item class="Weld" referent="RBX000001E0">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0.15</X><Y>0.04</Y><Z>-0.18</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -161,7 +161,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001DD">
+			<Item class="Weld" referent="RBX000001E1">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>0.23</Y><Z>-0.11</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -195,7 +195,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001DE">
+			<Item class="Weld" referent="RBX000001E2">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>0.285</Y><Z>-0.11</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -229,7 +229,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001DF">
+			<Item class="Weld" referent="RBX000001E3">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>-0.155</X><Y>-0.09</Y><Z>0.31</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9396926</R11><R12>0.3420201</R12><R20>0</R20><R21>-0.3420201</R21><R22>0.9396926</R22></CoordinateFrame>
@@ -263,7 +263,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E0">
+			<Item class="Weld" referent="RBX000001E4">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>-0.155</X><Y>-0.09</Y><Z>0.11</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9659258</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.9659258</R22></CoordinateFrame>
@@ -297,7 +297,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E1">
+			<Item class="Weld" referent="RBX000001E5">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>-0.16</X><Y>-0.07</Y><Z>0.21</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -331,7 +331,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E2">
+			<Item class="Weld" referent="RBX000001E6">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>0.19</Y><Z>0.39</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -365,7 +365,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E3">
+			<Item class="Weld" referent="RBX000001E7">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>-0.065</X><Y>0.26</Y><Z>0.39</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -399,7 +399,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E4">
+			<Item class="Weld" referent="RBX000001E8">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0.065</X><Y>0.26</Y><Z>0.39</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -433,7 +433,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E5">
+			<Item class="Weld" referent="RBX000001E9">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>0.25</Y><Z>0.39</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -467,7 +467,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E6">
+			<Item class="Weld" referent="RBX000001EA">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.23</Y><Z>0.25</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -501,7 +501,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E7">
+			<Item class="Weld" referent="RBX000001EB">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.47</Y><Z>-0.07</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -535,7 +535,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E8">
+			<Item class="Weld" referent="RBX000001EC">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.37</Y><Z>-0.21</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -569,7 +569,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001E9">
+			<Item class="Weld" referent="RBX000001ED">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.36</Y><Z>-0.04</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9659258</R11><R12>0.258819</R12><R20>0</R20><R21>-0.258819</R21><R22>0.9659258</R22></CoordinateFrame>
@@ -603,7 +603,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001EA">
+			<Item class="Weld" referent="RBX000001EE">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.72</Y><Z>0.098</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9702957</R11><R12>0.2419219</R12><R20>0</R20><R21>-0.2419219</R21><R22>0.9702957</R22></CoordinateFrame>
@@ -637,7 +637,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001EB">
+			<Item class="Weld" referent="RBX000001EF">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-1.235</Y><Z>0.225</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9702957</R11><R12>0.2419219</R12><R20>0</R20><R21>-0.2419219</R21><R22>0.9702957</R22></CoordinateFrame>
@@ -671,7 +671,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001EC">
+			<Item class="Weld" referent="RBX000001F0">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.23</Y><Z>-0.39</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -705,7 +705,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001ED">
+			<Item class="Weld" referent="RBX000001F1">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.57</Y><Z>-0.39</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -739,7 +739,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001EE">
+			<Item class="Weld" referent="RBX000001F2">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.98</Y><Z>-0.39</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -773,7 +773,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001EF">
+			<Item class="Weld" referent="RBX000001F3">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.59</Y><Z>-0.506</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
@@ -794,8 +794,8 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.375</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
-				<Vector3 name="size"><X>1.43</X><Y>0.11</Y><Z>0.11</Z></Vector3>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.3774148</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>1.4348297</X><Y>0.11</Y><Z>0.11</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
 				<float name="Reflectance">0</float>
@@ -807,10 +807,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F0">
+			<Item class="Weld" referent="RBX000001F4">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.285</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.2874148</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001BB</Ref>
@@ -828,8 +828,8 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.0783909</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.7967818</X><Y>0.16</Y><Z>0.16</Z></Vector3>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.2424148</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>1.1248297</X><Y>0.16</Y><Z>0.16</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
 				<float name="Reflectance">0</float>
@@ -841,10 +841,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F1">
+			<Item class="Weld" referent="RBX000001F5">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.9883909</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.1524148</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001BC</Ref>
@@ -875,7 +875,7 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F2">
+			<Item class="Weld" referent="RBX000001F6">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.63</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
@@ -896,7 +896,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-0.7916782</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-0.7946307</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -909,10 +909,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F3">
+			<Item class="Weld" referent="RBX000001F7">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.7016782</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.7046307</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001BE</Ref>
@@ -930,7 +930,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-0.8633564</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-0.8692614</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -943,10 +943,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F4">
+			<Item class="Weld" referent="RBX000001F8">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.7733564</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.7792614</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001BF</Ref>
@@ -964,7 +964,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-0.9350346</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-0.9438921</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -977,10 +977,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F5">
+			<Item class="Weld" referent="RBX000001F9">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.8450346</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.8538921</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001C0</Ref>
@@ -998,7 +998,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.0067127</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.0185228</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -1011,10 +1011,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F6">
+			<Item class="Weld" referent="RBX000001FA">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.9167127</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.9285228</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001C1</Ref>
@@ -1032,7 +1032,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.0783909</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.0931535</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -1045,10 +1045,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F7">
+			<Item class="Weld" referent="RBX000001FB">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.9883909</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.0031535</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001C2</Ref>
@@ -1066,7 +1066,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.1500691</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.1677842</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -1079,10 +1079,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F8">
+			<Item class="Weld" referent="RBX000001FC">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.0600691</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.0777842</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001C3</Ref>
@@ -1100,7 +1100,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.2217473</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.2424148</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -1113,10 +1113,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001F9">
+			<Item class="Weld" referent="RBX000001FD">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.1317473</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.1524148</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001C4</Ref>
@@ -1134,7 +1134,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.2934255</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.3170455</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -1147,10 +1147,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001FA">
+			<Item class="Weld" referent="RBX000001FE">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.2034255</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.2270455</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001C5</Ref>
@@ -1168,7 +1168,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.3651037</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.3916762</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -1181,10 +1181,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001FB">
+			<Item class="Weld" referent="RBX000001FF">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.2751037</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.3016762</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001C6</Ref>
@@ -1202,7 +1202,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.4367818</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.4663069</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -1215,10 +1215,10 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX000001FC">
+			<Item class="Weld" referent="RBX00000200">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.3467818</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.3763069</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001C7</Ref>
@@ -1227,7 +1227,7 @@
 		</Item>
 		<Item class="Part" referent="RBX000001C8">
 			<Properties>
-				<string name="Name">Compensator</string>
+				<string name="Name">Fin12</string>
 				<token name="shape">2</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
@@ -1236,146 +1236,10 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-2.22</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.26</X><Y>0.17</Y><Z>0.17</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4284243814</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.5409376</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
-				<float name="Reflectance">0</float>
-				<float name="Transparency">0</float>
-				<token name="TopSurface">0</token>
-				<token name="BottomSurface">0</token>
-				<token name="FrontSurface">0</token>
-				<token name="BackSurface">0</token>
-				<token name="LeftSurface">0</token>
-				<token name="RightSurface">0</token>
-			</Properties>
-			<Item class="Weld" referent="RBX000001FD">
-				<Properties>
-					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-2.13</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
-					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001C8</Ref>
-				</Properties>
-			</Item>
-		</Item>
-		<Item class="Part" referent="RBX000001C9">
-			<Properties>
-				<string name="Name">CompensatorSlot1</string>
-				<token name="shape">1</token>
-				<bool name="Anchored">false</bool>
-				<bool name="CanCollide">false</bool>
-				<bool name="CanTouch">false</bool>
-				<bool name="CanQuery">false</bool>
-				<bool name="Massless">true</bool>
-				<bool name="CastShadow">true</bool>
-				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.782</Y><Z>-2.29</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.1</X><Y>0.012</Y><Z>0.022</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
-				<token name="Material">272</token>
-				<float name="Reflectance">0</float>
-				<float name="Transparency">0</float>
-				<token name="TopSurface">0</token>
-				<token name="BottomSurface">0</token>
-				<token name="FrontSurface">0</token>
-				<token name="BackSurface">0</token>
-				<token name="LeftSurface">0</token>
-				<token name="RightSurface">0</token>
-			</Properties>
-			<Item class="Weld" referent="RBX000001FE">
-				<Properties>
-					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.092</Y><Z>-2.2</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001C9</Ref>
-				</Properties>
-			</Item>
-		</Item>
-		<Item class="Part" referent="RBX000001CA">
-			<Properties>
-				<string name="Name">CompensatorSlot2</string>
-				<token name="shape">1</token>
-				<bool name="Anchored">false</bool>
-				<bool name="CanCollide">false</bool>
-				<bool name="CanTouch">false</bool>
-				<bool name="CanQuery">false</bool>
-				<bool name="Massless">true</bool>
-				<bool name="CastShadow">true</bool>
-				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.782</Y><Z>-2.245</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.1</X><Y>0.012</Y><Z>0.022</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
-				<token name="Material">272</token>
-				<float name="Reflectance">0</float>
-				<float name="Transparency">0</float>
-				<token name="TopSurface">0</token>
-				<token name="BottomSurface">0</token>
-				<token name="FrontSurface">0</token>
-				<token name="BackSurface">0</token>
-				<token name="LeftSurface">0</token>
-				<token name="RightSurface">0</token>
-			</Properties>
-			<Item class="Weld" referent="RBX000001FF">
-				<Properties>
-					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.092</Y><Z>-2.155</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001CA</Ref>
-				</Properties>
-			</Item>
-		</Item>
-		<Item class="Part" referent="RBX000001CB">
-			<Properties>
-				<string name="Name">CompensatorSlot3</string>
-				<token name="shape">1</token>
-				<bool name="Anchored">false</bool>
-				<bool name="CanCollide">false</bool>
-				<bool name="CanTouch">false</bool>
-				<bool name="CanQuery">false</bool>
-				<bool name="Massless">true</bool>
-				<bool name="CastShadow">true</bool>
-				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.782</Y><Z>-2.2</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.1</X><Y>0.012</Y><Z>0.022</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
-				<token name="Material">272</token>
-				<float name="Reflectance">0</float>
-				<float name="Transparency">0</float>
-				<token name="TopSurface">0</token>
-				<token name="BottomSurface">0</token>
-				<token name="FrontSurface">0</token>
-				<token name="BackSurface">0</token>
-				<token name="LeftSurface">0</token>
-				<token name="RightSurface">0</token>
-			</Properties>
-			<Item class="Weld" referent="RBX00000200">
-				<Properties>
-					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.092</Y><Z>-2.11</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001CB</Ref>
-				</Properties>
-			</Item>
-		</Item>
-		<Item class="Part" referent="RBX000001CC">
-			<Properties>
-				<string name="Name">CompensatorSlot4</string>
-				<token name="shape">1</token>
-				<bool name="Anchored">false</bool>
-				<bool name="CanCollide">false</bool>
-				<bool name="CanTouch">false</bool>
-				<bool name="CanQuery">false</bool>
-				<bool name="Massless">true</bool>
-				<bool name="CastShadow">true</bool>
-				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.782</Y><Z>-2.155</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.1</X><Y>0.012</Y><Z>0.022</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
-				<token name="Material">272</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
 				<token name="TopSurface">0</token>
@@ -1388,16 +1252,16 @@
 			<Item class="Weld" referent="RBX00000201">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.092</Y><Z>-2.065</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.4509376</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001CC</Ref>
+					<Ref name="Part1">RBX000001C8</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001CD">
+		<Item class="Part" referent="RBX000001C9">
 			<Properties>
-				<string name="Name">MuzzleBore</string>
+				<string name="Name">Fin13</string>
 				<token name="shape">2</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
@@ -1406,10 +1270,10 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-2.352</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.012</X><Y>0.07</Y><Z>0.07</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
-				<token name="Material">272</token>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.6155683</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
+				<token name="Material">1088</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
 				<token name="TopSurface">0</token>
@@ -1422,17 +1286,17 @@
 			<Item class="Weld" referent="RBX00000202">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-2.262</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.5255683</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001CD</Ref>
+					<Ref name="Part1">RBX000001C9</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001CE">
+		<Item class="Part" referent="RBX000001CA">
 			<Properties>
-				<string name="Name">FrontSight</string>
-				<token name="shape">1</token>
+				<string name="Name">Fin14</string>
+				<token name="shape">2</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
 				<bool name="CanTouch">false</bool>
@@ -1440,9 +1304,9 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.82</Y><Z>-2.14</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.025</X><Y>0.09</Y><Z>0.07</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4284243814</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.690199</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
@@ -1456,16 +1320,16 @@
 			<Item class="Weld" referent="RBX00000203">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.13</Y><Z>-2.05</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.600199</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001CE</Ref>
+					<Ref name="Part1">RBX000001CA</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001CF">
+		<Item class="Part" referent="RBX000001CB">
 			<Properties>
-				<string name="Name">ForegripCollar</string>
+				<string name="Name">Fin15</string>
 				<token name="shape">2</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
@@ -1474,9 +1338,9 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.0767818</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.12</X><Y>0.29</Y><Z>0.29</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4282006594</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.7648297</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.25</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
@@ -1490,17 +1354,17 @@
 			<Item class="Weld" referent="RBX00000204">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-0.9867818</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.6748297</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001CF</Ref>
+					<Ref name="Part1">RBX000001CB</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001D0">
+		<Item class="Part" referent="RBX000001CC">
 			<Properties>
-				<string name="Name">ForegripMount</string>
-				<token name="shape">1</token>
+				<string name="Name">Compensator</string>
+				<token name="shape">2</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
 				<bool name="CanTouch">false</bool>
@@ -1508,9 +1372,9 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.55</Y><Z>-1.0767818</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.12</X><Y>0.1</Y><Z>0.14</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4282006594</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-2.2248297</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.26</X><Y>0.17</Y><Z>0.17</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4284243814</Color3uint8>
 				<token name="Material">1088</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
@@ -1524,16 +1388,16 @@
 			<Item class="Weld" referent="RBX00000205">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>-0.14</Y><Z>-0.9867818</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-2.1348297</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D0</Ref>
+					<Ref name="Part1">RBX000001CC</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001D1">
+		<Item class="Part" referent="RBX000001CD">
 			<Properties>
-				<string name="Name">Foregrip</string>
+				<string name="Name">CompensatorSlot1</string>
 				<token name="shape">1</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
@@ -1542,10 +1406,10 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.115</Y><Z>-1.0512586</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.19</X><Y>0.9723686</Y><Z>0.25</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4286203942</Color3uint8>
-				<token name="Material">512</token>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.782</Y><Z>-2.2948297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.1</X><Y>0.012</Y><Z>0.022</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
+				<token name="Material">272</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
 				<token name="TopSurface">0</token>
@@ -1558,16 +1422,16 @@
 			<Item class="Weld" referent="RBX00000206">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>-0.575</Y><Z>-0.9612586</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.092</Y><Z>-2.2048297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D1</Ref>
+					<Ref name="Part1">RBX000001CD</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001D2">
+		<Item class="Part" referent="RBX000001CE">
 			<Properties>
-				<string name="Name">ForegripRidge1</string>
+				<string name="Name">CompensatorSlot2</string>
 				<token name="shape">1</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
@@ -1576,10 +1440,10 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.0586863</Y><Z>-1.190526</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.17</X><Y>0.05</Y><Z>0.03</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4284495646</Color3uint8>
-				<token name="Material">512</token>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.782</Y><Z>-2.2498297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.1</X><Y>0.012</Y><Z>0.022</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
+				<token name="Material">272</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
 				<token name="TopSurface">0</token>
@@ -1592,16 +1456,16 @@
 			<Item class="Weld" referent="RBX00000207">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>-0.6313137</Y><Z>-1.100526</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.092</Y><Z>-2.1598297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D2</Ref>
+					<Ref name="Part1">RBX000001CE</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001D3">
+		<Item class="Part" referent="RBX000001CF">
 			<Properties>
-				<string name="Name">ForegripRidge2</string>
+				<string name="Name">CompensatorSlot3</string>
 				<token name="shape">1</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
@@ -1610,10 +1474,10 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.178394</Y><Z>-1.1821553</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.17</X><Y>0.05</Y><Z>0.03</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4284495646</Color3uint8>
-				<token name="Material">512</token>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.782</Y><Z>-2.2048297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.1</X><Y>0.012</Y><Z>0.022</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
+				<token name="Material">272</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
 				<token name="TopSurface">0</token>
@@ -1626,16 +1490,16 @@
 			<Item class="Weld" referent="RBX00000208">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>-0.511606</Y><Z>-1.0921553</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.092</Y><Z>-2.1148297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D3</Ref>
+					<Ref name="Part1">RBX000001CF</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001D4">
+		<Item class="Part" referent="RBX000001D0">
 			<Properties>
-				<string name="Name">ForegripRidge3</string>
+				<string name="Name">CompensatorSlot4</string>
 				<token name="shape">1</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
@@ -1644,10 +1508,10 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.2981017</Y><Z>-1.1737845</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.17</X><Y>0.05</Y><Z>0.03</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4284495646</Color3uint8>
-				<token name="Material">512</token>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.782</Y><Z>-2.1598297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.1</X><Y>0.012</Y><Z>0.022</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
+				<token name="Material">272</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
 				<token name="TopSurface">0</token>
@@ -1660,17 +1524,17 @@
 			<Item class="Weld" referent="RBX00000209">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>-0.3918983</Y><Z>-1.0837845</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.092</Y><Z>-2.0698297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D4</Ref>
+					<Ref name="Part1">RBX000001D0</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001D5">
+		<Item class="Part" referent="RBX000001D1">
 			<Properties>
-				<string name="Name">StockUpper</string>
-				<token name="shape">1</token>
+				<string name="Name">MuzzleBore</string>
+				<token name="shape">2</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
 				<bool name="CanTouch">false</bool>
@@ -1678,10 +1542,10 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.67</Y><Z>0.62</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.22</X><Y>0.3</Y><Z>0.32</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4286203942</Color3uint8>
-				<token name="Material">512</token>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-2.3568297</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.012</X><Y>0.07</Y><Z>0.07</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4279242770</Color3uint8>
+				<token name="Material">272</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
 				<token name="TopSurface">0</token>
@@ -1694,16 +1558,17 @@
 			<Item class="Weld" referent="RBX0000020A">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>-0.02</Y><Z>0.71</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-2.2668297</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D5</Ref>
+					<Ref name="Part1">RBX000001D1</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="WedgePart" referent="RBX000001D6">
+		<Item class="Part" referent="RBX000001D2">
 			<Properties>
-				<string name="Name">StockToe</string>
+				<string name="Name">FrontSight</string>
+				<token name="shape">1</token>
 				<bool name="Anchored">false</bool>
 				<bool name="CanCollide">false</bool>
 				<bool name="CanTouch">false</bool>
@@ -1711,10 +1576,10 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.4</Y><Z>0.668</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
-				<Vector3 name="size"><X>0.22</X><Y>0.24</Y><Z>0.224</Z></Vector3>
-				<Color3uint8 name="Color3uint8">4286203942</Color3uint8>
-				<token name="Material">512</token>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.82</Y><Z>-2.1448297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.025</X><Y>0.09</Y><Z>0.07</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4284243814</Color3uint8>
+				<token name="Material">1088</token>
 				<float name="Reflectance">0</float>
 				<float name="Transparency">0</float>
 				<token name="TopSurface">0</token>
@@ -1727,7 +1592,143 @@
 			<Item class="Weld" referent="RBX0000020B">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>-0.29</Y><Z>0.758</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.13</Y><Z>-2.0548297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<Ref name="Part0">RBX000001A4</Ref>
+					<Ref name="Part1">RBX000001D2</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX000001D3">
+			<Properties>
+				<string name="Name">ForegripCollar</string>
+				<token name="shape">2</token>
+				<bool name="Anchored">false</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanTouch">false</bool>
+				<bool name="CanQuery">false</bool>
+				<bool name="Massless">true</bool>
+				<bool name="CastShadow">true</bool>
+				<bool name="Locked">false</bool>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.7</Y><Z>-1.4048297</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.12</X><Y>0.29</Y><Z>0.29</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4282006594</Color3uint8>
+				<token name="Material">1088</token>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<token name="TopSurface">0</token>
+				<token name="BottomSurface">0</token>
+				<token name="FrontSurface">0</token>
+				<token name="BackSurface">0</token>
+				<token name="LeftSurface">0</token>
+				<token name="RightSurface">0</token>
+			</Properties>
+			<Item class="Weld" referent="RBX0000020C">
+				<Properties>
+					<string name="Name">HandleWeld</string>
+					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>-1.3148297</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<Ref name="Part0">RBX000001A4</Ref>
+					<Ref name="Part1">RBX000001D3</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX000001D4">
+			<Properties>
+				<string name="Name">ForegripMount</string>
+				<token name="shape">1</token>
+				<bool name="Anchored">false</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanTouch">false</bool>
+				<bool name="CanQuery">false</bool>
+				<bool name="Massless">true</bool>
+				<bool name="CastShadow">true</bool>
+				<bool name="Locked">false</bool>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.55</Y><Z>-1.4048297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.12</X><Y>0.1</Y><Z>0.14</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4282006594</Color3uint8>
+				<token name="Material">1088</token>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<token name="TopSurface">0</token>
+				<token name="BottomSurface">0</token>
+				<token name="FrontSurface">0</token>
+				<token name="BackSurface">0</token>
+				<token name="LeftSurface">0</token>
+				<token name="RightSurface">0</token>
+			</Properties>
+			<Item class="Weld" referent="RBX0000020D">
+				<Properties>
+					<string name="Name">HandleWeld</string>
+					<CoordinateFrame name="C0"><X>0</X><Y>-0.14</Y><Z>-1.3148297</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<Ref name="Part0">RBX000001A4</Ref>
+					<Ref name="Part1">RBX000001D4</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX000001D5">
+			<Properties>
+				<string name="Name">Foregrip</string>
+				<token name="shape">1</token>
+				<bool name="Anchored">false</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanTouch">false</bool>
+				<bool name="CanQuery">false</bool>
+				<bool name="Massless">true</bool>
+				<bool name="CastShadow">true</bool>
+				<bool name="Locked">false</bool>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.1</Y><Z>-1.397837</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.19</X><Y>1.0024419</Y><Z>0.25</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4286203942</Color3uint8>
+				<token name="Material">512</token>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<token name="TopSurface">0</token>
+				<token name="BottomSurface">0</token>
+				<token name="FrontSurface">0</token>
+				<token name="BackSurface">0</token>
+				<token name="LeftSurface">0</token>
+				<token name="RightSurface">0</token>
+			</Properties>
+			<Item class="Weld" referent="RBX0000020E">
+				<Properties>
+					<string name="Name">HandleWeld</string>
+					<CoordinateFrame name="C0"><X>0</X><Y>-0.59</Y><Z>-1.307837</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<Ref name="Part0">RBX000001A4</Ref>
+					<Ref name="Part1">RBX000001D5</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX000001D6">
+			<Properties>
+				<string name="Name">ForegripRidge1</string>
+				<token name="shape">1</token>
+				<bool name="Anchored">false</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanTouch">false</bool>
+				<bool name="CanQuery">false</bool>
+				<bool name="Massless">true</bool>
+				<bool name="CastShadow">true</bool>
+				<bool name="Locked">false</bool>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>2.7500505</Y><Z>-1.5576375</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.17</X><Y>0.05</Y><Z>0.03</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4284495646</Color3uint8>
+				<token name="Material">512</token>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<token name="TopSurface">0</token>
+				<token name="BottomSurface">0</token>
+				<token name="FrontSurface">0</token>
+				<token name="BackSurface">0</token>
+				<token name="LeftSurface">0</token>
+				<token name="RightSurface">0</token>
+			</Properties>
+			<Item class="Weld" referent="RBX0000020F">
+				<Properties>
+					<string name="Name">HandleWeld</string>
+					<CoordinateFrame name="C0"><X>0</X><Y>-0.9399495</Y><Z>-1.4676375</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
 					<Ref name="Part1">RBX000001D6</Ref>
@@ -1735,6 +1736,141 @@
 			</Item>
 		</Item>
 		<Item class="Part" referent="RBX000001D7">
+			<Properties>
+				<string name="Name">ForegripRidge2</string>
+				<token name="shape">1</token>
+				<bool name="Anchored">false</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanTouch">false</bool>
+				<bool name="CanQuery">false</bool>
+				<bool name="Massless">true</bool>
+				<bool name="CastShadow">true</bool>
+				<bool name="Locked">false</bool>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>2.8697582</Y><Z>-1.5492667</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.17</X><Y>0.05</Y><Z>0.03</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4284495646</Color3uint8>
+				<token name="Material">512</token>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<token name="TopSurface">0</token>
+				<token name="BottomSurface">0</token>
+				<token name="FrontSurface">0</token>
+				<token name="BackSurface">0</token>
+				<token name="LeftSurface">0</token>
+				<token name="RightSurface">0</token>
+			</Properties>
+			<Item class="Weld" referent="RBX00000210">
+				<Properties>
+					<string name="Name">HandleWeld</string>
+					<CoordinateFrame name="C0"><X>0</X><Y>-0.8202418</Y><Z>-1.4592667</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<Ref name="Part0">RBX000001A4</Ref>
+					<Ref name="Part1">RBX000001D7</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX000001D8">
+			<Properties>
+				<string name="Name">ForegripRidge3</string>
+				<token name="shape">1</token>
+				<bool name="Anchored">false</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanTouch">false</bool>
+				<bool name="CanQuery">false</bool>
+				<bool name="Massless">true</bool>
+				<bool name="CastShadow">true</bool>
+				<bool name="Locked">false</bool>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>2.9894658</Y><Z>-1.540896</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.17</X><Y>0.05</Y><Z>0.03</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4284495646</Color3uint8>
+				<token name="Material">512</token>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<token name="TopSurface">0</token>
+				<token name="BottomSurface">0</token>
+				<token name="FrontSurface">0</token>
+				<token name="BackSurface">0</token>
+				<token name="LeftSurface">0</token>
+				<token name="RightSurface">0</token>
+			</Properties>
+			<Item class="Weld" referent="RBX00000211">
+				<Properties>
+					<string name="Name">HandleWeld</string>
+					<CoordinateFrame name="C0"><X>0</X><Y>-0.7005342</Y><Z>-1.450896</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9975641</R11><R12>-0.0697565</R12><R20>0</R20><R21>0.0697565</R21><R22>0.9975641</R22></CoordinateFrame>
+					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<Ref name="Part0">RBX000001A4</Ref>
+					<Ref name="Part1">RBX000001D8</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX000001D9">
+			<Properties>
+				<string name="Name">StockUpper</string>
+				<token name="shape">1</token>
+				<bool name="Anchored">false</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanTouch">false</bool>
+				<bool name="CanQuery">false</bool>
+				<bool name="Massless">true</bool>
+				<bool name="CastShadow">true</bool>
+				<bool name="Locked">false</bool>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.67</Y><Z>0.6075</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.22</X><Y>0.3</Y><Z>0.295</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4286203942</Color3uint8>
+				<token name="Material">512</token>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<token name="TopSurface">0</token>
+				<token name="BottomSurface">0</token>
+				<token name="FrontSurface">0</token>
+				<token name="BackSurface">0</token>
+				<token name="LeftSurface">0</token>
+				<token name="RightSurface">0</token>
+			</Properties>
+			<Item class="Weld" referent="RBX00000212">
+				<Properties>
+					<string name="Name">HandleWeld</string>
+					<CoordinateFrame name="C0"><X>0</X><Y>-0.02</Y><Z>0.6975</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<Ref name="Part0">RBX000001A4</Ref>
+					<Ref name="Part1">RBX000001D9</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="WedgePart" referent="RBX000001DA">
+			<Properties>
+				<string name="Name">StockToe</string>
+				<bool name="Anchored">false</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanTouch">false</bool>
+				<bool name="CanQuery">false</bool>
+				<bool name="Massless">true</bool>
+				<bool name="CastShadow">true</bool>
+				<bool name="Locked">false</bool>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.4</Y><Z>0.65175</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>0.22</X><Y>0.24</Y><Z>0.2065</Z></Vector3>
+				<Color3uint8 name="Color3uint8">4286203942</Color3uint8>
+				<token name="Material">512</token>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<token name="TopSurface">0</token>
+				<token name="BottomSurface">0</token>
+				<token name="FrontSurface">0</token>
+				<token name="BackSurface">0</token>
+				<token name="LeftSurface">0</token>
+				<token name="RightSurface">0</token>
+			</Properties>
+			<Item class="Weld" referent="RBX00000213">
+				<Properties>
+					<string name="Name">HandleWeld</string>
+					<CoordinateFrame name="C0"><X>0</X><Y>-0.29</Y><Z>0.74175</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<Ref name="Part0">RBX000001A4</Ref>
+					<Ref name="Part1">RBX000001DA</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX000001DB">
 			<Properties>
 				<string name="Name">StockTang</string>
 				<token name="shape">1</token>
@@ -1758,17 +1894,17 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX0000020C">
+			<Item class="Weld" referent="RBX00000214">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>0.01</Y><Z>0.57</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D7</Ref>
+					<Ref name="Part1">RBX000001DB</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001D8">
+		<Item class="Part" referent="RBX000001DC">
 			<Properties>
 				<string name="Name">ButtPlate</string>
 				<token name="shape">1</token>
@@ -1779,7 +1915,7 @@
 				<bool name="Massless">true</bool>
 				<bool name="CastShadow">true</bool>
 				<bool name="Locked">false</bool>
-				<CoordinateFrame name="CFrame"><X>0</X><Y>3.55</Y><Z>0.7975</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<CoordinateFrame name="CFrame"><X>0</X><Y>3.55</Y><Z>0.7725</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 				<Vector3 name="size"><X>0.235</X><Y>0.56</Y><Z>0.035</Z></Vector3>
 				<Color3uint8 name="Color3uint8">4280559147</Color3uint8>
 				<token name="Material">1088</token>
@@ -1792,17 +1928,17 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX0000020D">
+			<Item class="Weld" referent="RBX00000215">
 				<Properties>
 					<string name="Name">HandleWeld</string>
-					<CoordinateFrame name="C0"><X>0</X><Y>-0.14</Y><Z>0.8875</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+					<CoordinateFrame name="C0"><X>0</X><Y>-0.14</Y><Z>0.8625</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D8</Ref>
+					<Ref name="Part1">RBX000001DC</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX000001D9">
+		<Item class="Part" referent="RBX000001DD">
 			<Properties>
 				<string name="Name">SlingSwivel</string>
 				<token name="shape">2</token>
@@ -1826,23 +1962,23 @@
 				<token name="LeftSurface">0</token>
 				<token name="RightSurface">0</token>
 			</Properties>
-			<Item class="Weld" referent="RBX0000020E">
+			<Item class="Weld" referent="RBX00000216">
 				<Properties>
 					<string name="Name">HandleWeld</string>
 					<CoordinateFrame name="C0"><X>0</X><Y>-0.18</Y><Z>0.69</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
 					<Ref name="Part0">RBX000001A4</Ref>
-					<Ref name="Part1">RBX000001D9</Ref>
+					<Ref name="Part1">RBX000001DD</Ref>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="StringValue" referent="RBX0000020F">
+		<Item class="StringValue" referent="RBX00000217">
 			<Properties>
 				<string name="Name">IdleAnimationId</string>
 				<string name="Value"></string>
 			</Properties>
 		</Item>
-		<Item class="LocalScript" referent="RBX00000210">
+		<Item class="LocalScript" referent="RBX00000218">
 			<Properties>
 				<string name="Name">ThompsonIdleController</string>
 				<bool name="Disabled">false</bool>
@@ -1956,7 +2092,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000D7">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0110488</R00><R01>-0.3426368</R01><R02>0.939403</R02><R10>0.9951029</R10><R11>0.0960514</R11><R12>0.0233298</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0469721</R00><R01>-0.3421316</R01><R02>0.9384773</R02><R10>0.9796258</R10><R11>0.1994312</R11><R12>0.0236731</R12><R20>-0.195261</R20><R21>0.9182446</R21><R22>0.3445286</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -1965,7 +2101,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000D8">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4914744</R00><R01>0.8489564</R01><R02>-0.1942319</R02><R10>-0.8649491</R10><R11>0.5018364</R11><R12>0.0048237</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1833296</R00><R01>0.9829184</R01><R02>0.0161769</R02><R10>-0.9830484</R10><R11>-0.1833458</R11><R12>-0.0004879</R12><R20>0.0024864</R20><R21>-0.0159922</R21><R22>0.999869</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -1974,7 +2110,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000D9">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0991083</X><Y>0.0963334</Y><Z>-0.0082354</Z><R00>0.9814205</R00><R01>-0.0477971</R01><R02>-0.1858203</R02><R10>0.0661723</R10><R11>0.993373</R11><R12>0.0939754</R12><R20>0.1800971</R20><R21>-0.1045255</R21><R22>0.9780795</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0949974</X><Y>-0.0046461</Y><Z>0.1017199</Z><R00>0.9823001</R00><R01>-0.0488498</R01><R02>-0.1808322</R02><R10>0.0480425</R10><R11>0.9988061</R11><R12>-0.0088442</R12><R20>0.1810484</R20><R21>0</R21><R22>0.9834742</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -1983,7 +2119,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000DA">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0842011</X><Y>0.0970625</Y><Z>-0.0069297</Z><R00>0.9840146</R00><R01>0.0493672</R01><R02>0.1711088</R02><R10>-0.0662992</R10><R11>0.9932962</R11><R12>0.0946949</R12><R20>-0.1652869</R20><R21>-0.1045255</R21><R22>0.9806909</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0784385</X><Y>-0.0038363</Y><Z>0.1030256</Z><R00>0.9849084</R00><R01>0.0488498</R01><R02>0.1660397</R02><R10>-0.0481701</R10><R11>0.9988061</R11><R12>-0.0081207</R12><R20>-0.1662382</R20><R21>0</R21><R22>0.9860856</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2025,7 +2161,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000DF">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0114369</R00><R01>-0.3425993</R01><R02>0.939412</R02><R10>0.9950985</R10><R11>0.0961851</R11><R12>0.0229634</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0473607</R00><R01>-0.3421515</R01><R02>0.9384505</R02><R10>0.9796081</R10><R11>0.1995599</R11><R12>0.0233201</R12><R20>-0.1952561</R20><R21>0.9182092</R21><R22>0.3446257</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2034,7 +2170,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000E0">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4918117</R00><R01>0.8487605</R01><R02>-0.1942338</R02><R10>-0.8647573</R10><R11>0.5021676</R11><R12>0.0047479</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1829601</R00><R01>0.9829889</R01><R02>0.0160737</R02><R10>-0.9831172</R10><R11>-0.1829761</R11><R12>-0.0004818</R12><R20>0.0024675</R20><R21>-0.0158905</R21><R22>0.9998707</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2043,7 +2179,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000E1">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.1002817</X><Y>0.096338</Y><Z>-0.0083538</Z><R00>0.981238</R00><R01>-0.0470224</R01><R02>-0.1869781</R02><R10>0.0655247</R10><R11>0.9934101</R11><R12>0.0940371</R12><R20>0.1813241</R20><R21>-0.1045244</R21><R22>0.9778529</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0963734</X><Y>-0.0046508</Y><Z>0.1016003</Z><R00>0.9821046</R00><R01>-0.0482018</R01><R02>-0.1820634</R02><R10>0.0473943</R10><R11>0.9988376</R11><R12>-0.008786</R12><R20>0.1822753</R20><R21>0</R21><R22>0.9832475</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2052,7 +2188,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000E2">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0829004</X><Y>0.0971768</Y><Z>-0.0068315</Z><R00>0.9842626</R00><R01>0.048853</R01><R02>0.1698251</R02><R10>-0.0656707</R10><R11>0.9933217</R11><R12>0.0948648</R12><R20>-0.1640565</R20><R21>-0.1045244</R21><R22>0.9808976</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0770663</X><Y>-0.0037191</Y><Z>0.1031227</Z><R00>0.9851458</R00><R01>0.0482018</R01><R02>0.1648159</R02><R10>-0.047541</R10><R11>0.9988376</R11><R12>-0.0079537</R12><R20>-0.1650077</R20><R21>0</R21><R22>0.9862923</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2094,7 +2230,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000E7">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0108574</R00><R01>-0.3426553</R01><R02>0.9393985</R02><R10>0.995105</R10><R11>0.0959855</R11><R12>0.0235105</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0467804</R00><R01>-0.3421217</R01><R02>0.9384905</R02><R10>0.9796345</R10><R11>0.1993678</R11><R12>0.0238471</R12><R20>-0.1952634</R20><R21>0.9182621</R21><R22>0.3444807</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2103,7 +2239,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000E8">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.491308</R00><R01>0.8490529</R01><R02>-0.194231</R02><R10>-0.8650436</R10><R11>0.5016731</R11><R12>0.0048611</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1835118</R00><R01>0.9828836</R01><R02>0.0162278</R02><R10>-0.9830143</R10><R11>-0.1835281</R11><R12>-0.0004909</R12><R20>0.0024958</R20><R21>-0.0160423</R21><R22>0.9998682</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2112,7 +2248,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000E9">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.1007928</X><Y>0.0964922</Y><Z>-0.0084206</Z><R00>0.9812317</R00><R01>-0.0451032</R01><R02>-0.1874836</R02><R10>0.0636951</R10><R11>0.9934991</R11><R12>0.0943528</R12><R20>0.1820092</R20><R21>-0.1045238</R21><R22>0.9777256</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0971486</X><Y>-0.0045072</Y><Z>0.1015328</Z><R00>0.9820639</R00><R01>-0.0463453</R01><R02>-0.1827638</R02><R10>0.045563</R10><R11>0.9989255</R11><R12>-0.0084794</R12><R20>0.1829604</R20><R21>0</R21><R22>0.9831203</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2121,7 +2257,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000EA">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0820283</X><Y>0.0973628</Y><Z>-0.0067773</Z><R00>0.9844969</R00><R01>0.0470796</R01><R02>0.1689656</R02><R10>-0.0638466</R10><R11>0.9934074</R11><R12>0.095212</R12><R20>-0.1633692</R20><R21>-0.1045238</R21><R22>0.9810124</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0763052</X><Y>-0.0035402</Y><Z>0.1031762</Z><R00>0.9853471</R00><R01>0.0463453</R01><R02>0.1641438</R02><R10>-0.0457153</R10><R11>0.9989255</R11><R12>-0.0076155</R12><R20>-0.1643204</R20><R21>0</R21><R22>0.986407</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2163,7 +2299,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000EF">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0093883</R00><R01>-0.3427966</R01><R02>0.9393627</R02><R10>0.99512</R10><R11>0.0954795</R11><R12>0.0248973</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0453095</R00><R01>-0.3420457</R01><R02>0.9385903</R02><R10>0.9797001</R10><R11>0.1988808</R11><R12>0.0251831</R12><R20>-0.1952814</R20><R21>0.918396</R21><R22>0.3441134</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2172,7 +2308,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000F0">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4900304</R00><R01>0.8497925</R01><R02>-0.1942236</R02><R10>-0.865768</R10><R11>0.5004192</R11><R12>0.0051478</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1849098</R00><R01>0.982615</R01><R02>0.0166185</R02><R10>-0.9827521</R10><R11>-0.1849269</R11><R12>-0.0005143</R12><R20>0.0025679</R20><R21>-0.016427</R21><R22>0.9998618</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2181,7 +2317,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000F1">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.1006209</X><Y>0.0967723</Y><Z>-0.0084305</Z><R00>0.9813892</R00><R01>-0.0422845</R01><R02>-0.187316</R02><R10>0.0609209</R10><R11>0.9936231</R11><R12>0.094878</R12><R20>0.1821097</R20><R21>-0.1045237</R21><R22>0.9777069</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0972734</X><Y>-0.0042375</Y><Z>0.1015229</Z><R00>0.9821701</R00><R01>-0.0435219</R01><R02>-0.1828874</R02><R10>0.0427865</R10><R11>0.9990525</R11><R12>-0.0079672</R12><R20>0.1830609</R20><R21>0</R21><R22>0.9831016</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2190,7 +2326,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000F2">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0816515</X><Y>0.0975987</Y><Z>-0.0067694</Z><R00>0.9846901</R00><R01>0.0442825</R01><R02>0.1685957</R02><R10>-0.0610647</R10><R11>0.993536</R11><R12>0.0956935</R12><R20>-0.1632684</R20><R21>-0.1045237</R21><R22>0.9810292</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0762023</X><Y>-0.0033196</Y><Z>0.103184</Z><R00>0.9854891</R00><R01>0.0435219</R01><R02>0.164064</R02><R10>-0.0429311</R10><R11>0.9990525</R11><R12>-0.0071472</R12><R20>-0.1642196</R20><R21>0</R21><R22>0.9864238</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2232,7 +2368,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000F7">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.00722</R00><R01>-0.3430038</R01><R02>0.9393063</R02><R10>0.9951381</R10><R11>0.0947324</R11><R12>0.026944</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0431383</R00><R01>-0.3419321</R01><R02>0.938734</R02><R10>0.979793</R10><R11>0.1981623</R11><R12>0.0271552</R12><R20>-0.195307</R20><R21>0.9185936</R21><R22>0.343571</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2241,7 +2377,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000F8">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4881428</R00><R01>0.8508809</R01><R02>-0.1942119</R02><R10>-0.8668337</R10><R11>0.4985663</R11><R12>0.005571</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1869726</R00><R01>0.9822146</R01><R02>0.0171951</R02><R10>-0.9823615</R10><R11>-0.186991</R11><R12>-0.0005498</R12><R20>0.0026753</R20><R21>-0.0169946</R21><R22>0.999852</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2250,7 +2386,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000F9">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0997918</X><Y>0.097139</Y><Z>-0.0083826</Z><R00>0.9816844</R00><R01>-0.0389049</R01><R02>-0.1864998</R02><R10>0.0575349</R10><R11>0.9937611</R11><R12>0.0955439</R12><R20>0.1816192</R20><R21>-0.1045242</R21><R22>0.9777981</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0967384</X><Y>-0.0038796</Y><Z>0.1015713</Z><R00>0.9824031</R00><R01>-0.0400714</R01><R02>-0.1824238</R02><R10>0.0393979</R10><R11>0.9991968</R11><R12>-0.0073159</R12><R20>0.1825704</R20><R21>0</R21><R22>0.9831928</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2259,7 +2395,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000FA">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.081809</X><Y>0.0978602</Y><Z>-0.0068081</Z><R00>0.9848136</R00><R01>0.0407989</R01><R02>0.1687532</R02><R10>-0.0576604</R10><R11>0.9936851</R11><R12>0.0962556</R12><R20>-0.1637605</R20><R21>-0.1045242</R21><R22>0.9809471</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0767632</X><Y>-0.0030785</Y><Z>0.1031458</Z><R00>0.9855495</R00><R01>0.0400714</R01><R02>0.1645794</R02><R10>-0.0395241</R10><R11>0.9991968</R11><R12>-0.0066002</R12><R20>-0.1647117</R20><R21>0</R21><R22>0.9863418</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2301,7 +2437,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000000FF">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0046108</R00><R01>-0.343251</R01><R02>0.9392324</R02><R10>0.9951536</R10><R11>0.0938327</R11><R12>0.0294067</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0405254</R00><R01>-0.3417933</R01><R02>0.938901</R02><R10>0.9798987</R10><R11>0.1972981</R11><R12>0.0295286</R12><R20>-0.195336</R20><R21>0.9188312</R21><R22>0.3429184</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2310,7 +2446,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000100">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4858684</R00><R01>0.8521852</R01><R02>-0.1941966</R02><R10>-0.8681105</R10><R11>0.4963337</R11><R12>0.0060802</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1894536</R00><R01>0.9817267</R01><R02>0.0178887</R02><R10>-0.9818857</R10><R11>-0.1894734</R11><R12>-0.0005941</R12><R20>0.0028062</R20><R21>-0.0176773</R21><R22>0.9998398</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2319,7 +2455,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000101">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0983714</X><Y>0.0975475</Y><Z>-0.0082807</Z><R00>0.9820846</R00><R01>-0.0353262</R01><R02>-0.1850995</R02><R10>0.0538963</R10><R11>0.9938946</R11><R12>0.0962737</R12><R20>0.1805684</R20><R21>-0.1045251</R21><R22>0.9779926</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0955757</X><Y>-0.0034775</Y><Z>0.1016741</Z><R00>0.982737</R00><R01>-0.0363609</R01><R02>-0.1813996</R02><R10>0.0357569</R10><R11>0.9993387</R11><R12>-0.0066002</R12><R20>0.1815196</R20><R21>0</R21><R22>0.9833873</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2328,7 +2464,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000102">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0825057</X><Y>0.0981247</Y><Z>-0.0068918</Z><R00>0.9848455</R00><R01>0.0369973</R01><R02>0.1694421</R02><R10>-0.0539968</R10><R11>0.9938338</R11><R12>0.0968434</R12><R20>-0.1648144</R20><R21>-0.1045251</R21><R22>0.9807705</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0779521</X><Y>-0.0028363</Y><Z>0.1030631</Z><R00>0.985513</R00><R01>0.0363609</R01><R02>0.165656</R02><R10>-0.0358579</R10><R11>0.9993387</R11><R12>-0.0060274</R12><R20>-0.1657656</R20><R21>0</R21><R22>0.9861652</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2370,7 +2506,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000107">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0018344</R00><R01>-0.3435115</R01><R02>0.9391467</R02><R10>0.9951626</R10><R11>0.0928747</R11><R12>0.032027</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0377447</R00><R01>-0.3416429</R01><R02>0.9390716</R02><R10>0.980004</R10><R11>0.1963788</R11><R12>0.0320545</R12><R20>-0.195365</R20><R21>0.919084</R21><R22>0.3422237</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2379,7 +2515,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000108">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4834445</R00><R01>0.8535666</R01><R02>-0.1941789</R02><R10>-0.8694627</R10><R11>0.4939542</R11><R12>0.0066219</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1920921</R00><R01>0.9812001</R01><R02>0.0186267</R02><R10>-0.9813725</R10><R11>-0.1921136</R11><R12>-0.0006432</R12><R20>0.0029473</R20><R21>-0.0184033</R21><R22>0.9998263</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2388,7 +2524,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000109">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.096458</X><Y>0.097956</Y><Z>-0.0081331</Z><R00>0.9825568</R00><R01>-0.0318705</R01><R02>-0.1832116</R02><R10>0.0503286</R10><R11>0.9940113</R11><R12>0.0969975</R12><R20>0.1790231</R20><R21>-0.1045263</R21><R22>0.9782765</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0938576</X><Y>-0.0030728</Y><Z>0.1018231</Z><R00>0.9831446</R00><R01>-0.0327213</R01><R02>-0.1798779</R02><R10>0.032187</R10><R11>0.9994645</R11><R12>-0.005889</R12><R20>0.1799743</R20><R21>0</R21><R22>0.9836713</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2397,7 +2533,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000010A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0837072</X><Y>0.0983735</Y><Z>-0.007017</Z><R00>0.9847755</R00><R01>0.0332135</R01><R02>0.1706283</R02><R10>-0.0504013</R10><R11>0.9939674</R11><R12>0.0974094</R12><R20>-0.1663636</R20><R21>-0.1045263</R21><R22>0.9805087</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0796941</X><Y>-0.0026091</Y><Z>0.1029392</Z><R00>0.9853756</R00><R01>0.0327213</R01><R02>0.1672253</R02><R10>-0.03226</R10><R11>0.9994645</R11><R12>-0.0054748</R12><R20>-0.1673149</R20><R21>0</R21><R22>0.9859035</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2439,7 +2575,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000010F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.000867</R00><R01>-0.3437623</R01><R02>0.9390563</R02><R10>0.9951639</R10><R11>0.0919419</R11><R12>0.0345761</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.035039</R00><R01>-0.3414942</R01><R02>0.9392305</R02><R10>0.9800993</R10><R11>0.1954849</R11><R12>0.0345125</R12><R20>-0.1953912</R20><R21>0.9193299</R21><R22>0.3415478</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2448,7 +2584,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000110">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4810826</R00><R01>0.8549043</R01><R02>-0.1941602</R02><R10>-0.8707718</R10><R11>0.4916354</R11><R12>0.007149</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1946578</R00><R01>0.9806804</R01><R02>0.0193446</R02><R10>-0.9808664</R10><R11>-0.1946811</R11><R12>-0.0006929</R12><R20>0.0030865</R20><R21>-0.0191094</R21><R22>0.9998126</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2457,7 +2593,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000111">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0941742</X><Y>0.0983331</Y><Z>-0.0079509</Z><R00>0.9830698</R00><R01>-0.0287797</R01><R02>-0.1809572</R02><R10>0.0470796</R10><R11>0.9941055</R11><R12>0.0976615</R12><R20>0.1770799</R20><R21>-0.1045274</R21><R22>0.97863</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0916918</X><Y>-0.0026975</Y><Z>0.1020064</Z><R00>0.9835993</R00><R01>-0.029406</R01><R02>-0.1779542</R02><R10>0.0289362</R10><R11>0.9995676</R11><R12>-0.0052352</R12><R20>0.1780311</R20><R21>0</R21><R22>0.9840249</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2466,7 +2602,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000112">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0853407</X><Y>0.0985929</Y><Z>-0.0071778</Z><R00>0.9846069</R00><R01>0.0297101</R01><R02>0.1722396</R02><R10>-0.0471249</R10><R11>0.9940781</R11><R12>0.0979179</R12><R20>-0.1683105</R20><R21>-0.1045274</R21><R22>0.9801763</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0818795</X><Y>-0.0024088</Y><Z>0.1027795</Z><R00>0.9851449</R00><R01>0.029406</R01><R02>0.1691886</R02><R10>-0.0289817</R10><R11>0.9995676</R11><R12>-0.0049773</R12><R20>-0.1692618</R20><R21>0</R21><R22>0.9855711</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2508,7 +2644,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000117">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0033106</R00><R01>-0.3439871</R01><R02>0.9389686</R02><R10>0.9951588</R10><R11>0.0910975</R11><R12>0.0368819</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0325912</R00><R01>-0.3413574</R01><R02>0.9393684</R02><R10>0.9801793</R10><R11>0.1946765</R11><R12>0.0367364</R12><R20>-0.1954132</R20><R21>0.9195522</R21><R22>0.3409362</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2517,7 +2653,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000118">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.478943</R00><R01>0.8561089</R01><R02>-0.1941421</R02><R10>-0.8719505</R10><R11>0.4895347</R11><R12>0.0076257</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1969775</R00><R01>0.9802041</R01><R02>0.0199939</R02><R10>-0.9804027</R10><R11>-0.1970024</R11><R12>-0.0007395</R12><R20>0.003214</R20><R21>-0.0197477</R21><R22>0.9997998</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2526,7 +2662,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000119">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0916593</X><Y>0.0986586</Y><Z>-0.0077477</Z><R00>0.9835957</R00><R01>-0.0262023</R01><R02>-0.1784738</R02><R10>0.0443084</R10><R11>0.9941767</R11><R12>0.0982317</R12><R20>0.1748606</R20><R21>-0.1045282</R21><R22>0.9790289</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0892149</X><Y>-0.0023719</Y><Z>0.1022104</Z><R00>0.984076</R00><R01>-0.0265775</R01><R02>-0.1757498</R02><R10>0.0261635</R10><R11>0.9996468</R11><R12>-0.0046726</R12><R20>0.1758119</R20><R21>0</R21><R22>0.9844238</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2535,7 +2671,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000011A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.087299</X><Y>0.0987745</Y><Z>-0.0073661</Z><R00>0.9843545</R00><R01>0.0266616</R01><R02>0.1741708</R02><R10>-0.0443285</R10><R11>0.9941645</R11><R12>0.0983462</R12><R20>-0.1705324</R20><R21>-0.1045282</R21><R22>0.9797921</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0843715</X><Y>-0.0022432</Y><Z>0.102592</Z><R00>0.984839</R00><R01>0.0265775</R01><R02>0.171423</R02><R10>-0.0261838</R10><R11>0.9996468</R11><R12>-0.0045576</R12><R20>-0.1714836</R20><R21>0</R21><R22>0.985187</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2577,7 +2713,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000011F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0053819</R00><R01>-0.3441759</R01><R02>0.9388898</R02><R10>0.9951497</R10><R11>0.0903814</R11><R12>0.0388362</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0305162</R00><R01>-0.3412398</R01><R02>0.9394808</R02><R10>0.9802426</R10><R11>0.1939915</R11><R12>0.0386218</R12><R20>-0.1954306</R20><R21>0.9197405</R21><R22>0.3404177</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2586,7 +2722,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000120">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4771271</R00><R01>0.857126</R01><R02>-0.1941258</R02><R10>-0.8729454</R10><R11>0.4877518</R11><R12>0.0080298</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1989429</R00><R01>0.9797957</R01><R02>0.0205441</R02><R10>-0.9800055</R10><R11>-0.1989691</R11><R12>-0.0007802</R12><R20>0.0033232</R20><R21>-0.0202886</R21><R22>0.9997886</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2595,7 +2731,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000121">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.089062</X><Y>0.0989234</Y><Z>-0.0075376</Z><R00>0.9841089</R00><R01>-0.0242039</R01><R02>-0.1759087</R02><R10>0.0420939</R10><R11>0.9942273</R11><R12>0.0986921</R12><R20>0.1725045</R20><R21>-0.1045285</R21><R22>0.9794468</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0865831</X><Y>-0.002106</Y><Z>0.1024208</Z><R00>0.9845504</R00><R01>-0.0243167</R01><R02>-0.1734045</R02><R10>0.0239481</R10><R11>0.9997043</R11><R12>-0.0042179</R12><R20>0.1734558</R20><R21>0</R21><R22>0.9848417</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2604,7 +2740,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000122">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0894497</X><Y>0.098914</Y><Z>-0.0075715</Z><R00>0.9840414</R00><R01>0.024163</R01><R02>0.1762913</R02><R10>-0.0420922</R10><R11>0.9942283</R11><R12>0.0986828</R12><R20>-0.1728893</R20><R21>-0.1045285</R21><R22>0.9793789</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0870137</X><Y>-0.0021165</Y><Z>0.1023869</Z><R00>0.9844826</R00><R01>0.0243167</R01><R02>0.1737892</R02><R10>-0.0239464</R10><R11>0.9997043</R11><R12>-0.0042272</R12><R20>-0.1738406</R20><R21>0</R21><R22>0.9847738</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2646,7 +2782,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000127">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.007026</R00><R01>-0.3443248</R01><R02>0.9388243</R02><R10>0.9951395</R10><R11>0.0898126</R11><R12>0.0403873</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.028869</R00><R01>-0.3411455</R01><R02>0.9395671</R02><R10>0.9802899</R10><R11>0.193448</R11><R12>0.0401184</R12><R20>-0.1954436</R20><R21>0.91989</R21><R22>0.3400061</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2655,7 +2791,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000128">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4756842</R00><R01>0.8579306</R01><R02>-0.1941123</R02><R10>-0.8737325</R10><R11>0.486335</R11><R12>0.0083505</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.2005023</R00><R01>0.9794685</R01><R02>0.0209809</R02><R10>-0.9796873</R10><R11>-0.2005297</R11><R12>-0.0008133</R12><R20>0.0034107</R20><R21>-0.0207177</R21><R22>0.9997795</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2664,7 +2800,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000129">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0865341</X><Y>0.0991257</Y><Z>-0.0073341</Z><R00>0.9845857</R00><R01>-0.0227898</R01><R02>-0.1734118</R02><R10>0.0404571</R10><R11>0.9942608</R11><R12>0.099039</R12><R20>0.1701595</R20><R21>-0.1045281</R21><R22>0.9798569</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0839625</X><Y>-0.0019018</Y><Z>0.1026239</Z><R00>0.9849992</R00><R01>-0.0226446</R01><R02>-0.1710669</R02><R10>0.0223107</R10><R11>0.9997436</R11><R12>-0.0038747</R12><R20>0.1711107</R20><R21>0</R21><R22>0.9852518</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2673,7 +2809,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000012A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0916459</X><Y>0.0990099</Y><Z>-0.0077815</Z><R00>0.9836962</R00><R01>0.0222514</R01><R02>0.1784564</R02><R10>-0.040437</R10><R11>0.994273</R11><R12>0.0989247</R12><R20>-0.1752332</R20><R21>-0.1045281</R21><R22>0.9789623</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0896406</X><Y>-0.0020304</Y><Z>0.1021766</Z><R00>0.9841048</R00><R01>0.0226446</R01><R02>0.1761393</R02><R10>-0.0222904</R10><R11>0.9997436</R11><R12>-0.0039896</R12><R20>-0.1761845</R20><R21>0</R21><R22>0.9843572</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2715,7 +2851,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000012F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0082306</R00><R01>-0.3444332</R01><R02>0.9387747</R02><R10>0.9951302</R10><R11>0.0893958</R11><R12>0.0415237</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0276621</R00><R01>-0.3410758</R01><R02>0.9396287</R02><R10>0.9803229</R10><R11>0.1930499</R11><R12>0.0412151</R12><R20>-0.1954527</R20><R21>0.9199995</R21><R22>0.3397046</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2724,7 +2860,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000130">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4746262</R00><R01>0.8585187</R01><R02>-0.194102</R02><R10>-0.8743077</R10><R11>0.4852962</R11><R12>0.0085855</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.2016445</R00><R01>0.9792271</R01><R02>0.0213008</R02><R10>-0.9794526</R10><R11>-0.2016727</R11><R12>-0.0008379</R12><R20>0.0034753</R20><R21>-0.0210321</R21><R22>0.9997728</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2733,7 +2869,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000131">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0842233</X><Y>0.0992679</Y><Z>-0.0071496</Z><R00>0.9850044</R00><R01>-0.0219325</R01><R02>-0.1711292</R02><R10>0.0393867</R10><R11>0.9942801</R11><R12>0.0992757</R12><R20>0.167973</R20><R21>-0.1045273</R21><R22>0.9802342</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0815184</X><Y>-0.0017571</Y><Z>0.1028075</Z><R00>0.9854001</R00><R01>-0.0215495</R01><R02>-0.1688851</R02><R10>0.0212398</R10><R11>0.9997678</R11><R12>-0.0036402</R12><R20>0.1689243</R20><R21>0</R21><R22>0.985629</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2742,7 +2878,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000132">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0937381</X><Y>0.0990628</Y><Z>-0.0079822</Z><R00>0.9833488</R00><R01>0.0209304</R01><R02>0.1805191</R02><R10>-0.039351</R10><R11>0.9943017</R11><R12>0.0990733</R12><R20>-0.1774168</R20><R21>-0.1045273</R21><R22>0.978569</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0920874</X><Y>-0.0019849</Y><Z>0.1019749</Z><R00>0.9837353</R00><R01>0.0215495</R01><R02>0.1783267</R02><R10>-0.0212039</R10><R11>0.9997678</R11><R12>-0.0038437</R12><R20>-0.1783681</R20><R21>0</R21><R22>0.9839638</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2784,7 +2920,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000137">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0090059</R00><R01>-0.3445028</R01><R02>0.9387421</R02><R10>0.9951235</R10><R11>0.0891274</R11><R12>0.0422551</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0268852</R00><R01>-0.3410306</R01><R02>0.9396676</R02><R10>0.9803434</R10><R11>0.1927937</R11><R12>0.041921</R12><R20>-0.1954583</R20><R21>0.9200699</R21><R22>0.3395104</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2793,7 +2929,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000138">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4739449</R00><R01>0.8588966</R01><R02>-0.1940953</R02><R10>-0.8746772</R10><R11>0.4846271</R11><R12>0.0087367</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.2023795</R00><R01>0.979071</R01><R02>0.0215067</R02><R10>-0.9793008</R10><R11>-0.2024083</R11><R12>-0.000854</R12><R20>0.003517</R20><R21>-0.0212344</R21><R22>0.9997683</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2802,7 +2938,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000139">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0822662</X><Y>0.0993534</Y><Z>-0.0069941</Z><R00>0.9853458</R00><R01>-0.0215959</R01><R02>-0.1691961</R02><R10>0.0388614</R10><R11>0.9942876</R11><R12>0.0994077</R12><R20>0.1660828</R20><R21>-0.1045261</R21><R22>0.9805564</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0794051</X><Y>-0.0016686</Y><Z>0.1029618</Z><R00>0.9857335</R00><R01>-0.0210095</R01><R02>-0.1669972</R02><R10>0.0207144</R10><R11>0.9997793</R11><R12>-0.0035093</R12><R20>0.1670341</R20><R21>0</R21><R22>0.9859511</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2811,7 +2947,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000013A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0955862</X><Y>0.0990735</Y><Z>-0.0081596</Z><R00>0.9830279</R00><R01>0.020193</R01><R02>0.1823412</R02><R10>-0.0388127</R10><R11>0.9943171</R11><R12>0.0991314</R12><R20>-0.1793032</R20><R21>-0.1045261</R21><R22>0.9782253</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0942009</X><Y>-0.0019796</Y><Z>0.1017963</Z><R00>0.9834029</R00><R01>0.0210095</R01><R02>0.1802147</R02><R10>-0.0206654</R10><R11>0.9997793</R11><R12>-0.0037871</R12><R20>-0.1802545</R20><R21>0</R21><R22>0.98362</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2853,7 +2989,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000013F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0093684</R00><R01>-0.3445352</R01><R02>0.9387266</R02><R10>0.9951202</R10><R11>0.0890019</R11><R12>0.042597</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0265221</R00><R01>-0.3410095</R01><R02>0.9396857</R02><R10>0.9803528</R10><R11>0.1926739</R11><R12>0.042251</R12><R20>-0.1954609</R20><R21>0.9201029</R21><R22>0.3394197</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2862,7 +2998,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000140">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4736263</R00><R01>0.859073</R01><R02>-0.1940921</R02><R10>-0.8748498</R10><R11>0.4843142</R11><R12>0.0088074</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.2027231</R00><R01>0.9789978</R01><R02>0.0216029</R02><R10>-0.9792297</R10><R11>-0.2027521</R11><R12>-0.0008616</R12><R20>0.0035366</R20><R21>-0.0213289</R21><R22>0.9997663</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2871,7 +3007,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000141">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0807811</X><Y>0.0993846</Y><Z>-0.0068753</Z><R00>0.985593</R00><R01>-0.0217522</R01><R02>-0.1677296</R02><R10>0.0388666</R10><R11>0.9942844</R11><R12>0.0994385</R12><R20>0.1646079</R20><R21>-0.1045249</R21><R22>0.9808052</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0777556</X><Y>-0.001634</Y><Z>0.1030794</Z><R00>0.9859822</R00><R01>-0.0210095</R01><R02>-0.1655226</R02><R10>0.0207196</R10><R11>0.9997793</R11><R12>-0.0034783</R12><R20>0.1655591</R20><R21>0</R21><R22>0.9861999</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2880,7 +3016,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000142">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0970693</X><Y>0.0990423</Y><Z>-0.0083006</Z><R00>0.9827587</R00><R01>0.0200367</R01><R02>0.1838039</R02><R10>-0.038807</R10><R11>0.9943204</R11><R12>0.0991007</R12><R20>-0.1807743</R20><R21>-0.1045249</R21><R22>0.9779546</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0958484</X><Y>-0.0020142</Y><Z>0.1016541</Z><R00>0.9831322</R00><R01>0.0210095</R01><R02>0.1816854</R02><R10>-0.0206597</R10><R11>0.9997793</R11><R12>-0.003818</R12><R20>-0.1817255</R20><R21>0</R21><R22>0.9833493</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2922,7 +3058,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000147">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0093283</R00><R01>-0.3445316</R01><R02>0.9387284</R02><R10>0.9951205</R10><R11>0.0890158</R11><R12>0.0425592</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0265622</R00><R01>-0.3410118</R01><R02>0.9396837</R02><R10>0.9803518</R10><R11>0.1926872</R11><R12>0.0422145</R12><R20>-0.1954606</R20><R21>0.9200992</R21><R22>0.3394297</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2931,7 +3067,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000148">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4736615</R00><R01>0.8590535</R01><R02>-0.1940924</R02><R10>-0.8748307</R10><R11>0.4843488</R11><R12>0.0087996</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.2026851</R00><R01>0.9790059</R01><R02>0.0215923</R02><R10>-0.9792376</R10><R11>-0.2027141</R11><R12>-0.0008607</R12><R20>0.0035344</R20><R21>-0.0213184</R21><R22>0.9997665</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2940,7 +3076,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000149">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0798617</X><Y>0.0993619</Y><Z>-0.0067987</Z><R00>0.9857327</R00><R01>-0.0223916</R01><R02>-0.1668222</R02><R10>0.0394024</R10><R11>0.9942703</R11><R12>0.0993686</R12><R20>0.1636414</R20><R21>-0.1045241</R21><R22>0.980967</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0766739</X><Y>-0.0016527</Y><Z>0.1031551</Z><R00>0.9861326</R00><R01>-0.0215495</R01><R02>-0.1645544</R02><R10>0.0212556</R10><R11>0.9997678</R11><R12>-0.0035469</R12><R20>0.1645926</R20><R21>0</R21><R22>0.9863616</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2949,7 +3085,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000014A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0980944</X><Y>0.0989689</Y><Z>-0.0083941</Z><R00>0.98256</R00><R01>0.0204713</R01><R02>0.1848154</R02><R10>-0.039334</R10><R11>0.9943116</R11><R12>0.0989807</R12><R20>-0.1817379</R20><R21>-0.1045241</R21><R22>0.9777761</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0969266</X><Y>-0.0020892</Y><Z>0.1015596</Z><R00>0.9829424</R00><R01>0.0215495</R01><R02>0.1826467</R02><R10>-0.0211869</R10><R11>0.9997678</R11><R12>-0.0039369</R12><R20>-0.1826891</R20><R21>0</R21><R22>0.9831707</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -2991,7 +3127,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000014F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0088844</R00><R01>-0.3444919</R01><R02>0.9387473</R02><R10>0.9951246</R10><R11>0.0891695</R11><R12>0.0421405</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.027007</R00><R01>-0.3410377</R01><R02>0.9396616</R02><R10>0.9803402</R10><R11>0.1928338</R11><R12>0.0418103</R12><R20>-0.1954575</R20><R21>0.9200589</R21><R22>0.3395409</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3000,7 +3136,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000150">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4740517</R00><R01>0.8588374</R01><R02>-0.1940963</R02><R10>-0.8746193</R10><R11>0.484732</R11><R12>0.008713</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.2022643</R00><R01>0.9790955</R01><R02>0.0214744</R02><R10>-0.9793247</R10><R11>-0.202293</R11><R12>-0.0008515</R12><R20>0.0035104</R20><R21>-0.0212026</R21><R22>0.999769</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3009,7 +3145,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000151">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0795707</X><Y>0.0992834</Y><Z>-0.0067675</Z><R00>0.9857547</R00><R01>-0.0235228</R01><R02>-0.1665361</R02><R10>0.0404836</R10><R11>0.9942442</R11><R12>0.0991947</R12><R20>0.1632442</R20><R21>-0.1045237</R21><R22>0.9810332</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0762279</X><Y>-0.0017266</Y><Z>0.1031859</Z><R00>0.9861749</R00><R01>-0.0226446</R01><R02>-0.1641533</R02><R10>0.0223373</R10><R11>0.9997436</R11><R12>-0.0037181</R12><R20>0.1641954</R20><R21>0</R21><R22>0.9864278</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3018,7 +3154,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000152">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0986019</X><Y>0.0988524</Y><Z>-0.0084328</Z><R00>0.9824431</R00><R01>0.0215184</R01><R02>0.1853174</R02><R10>-0.0404086</R10><R11>0.9942896</R11><R12>0.0987693</R12><R20>-0.1821338</R20><R21>-0.1045237</R21><R22>0.9777025</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0973677</X><Y>-0.0022054</Y><Z>0.1015205</Z><R00>0.982845</R00><R01>0.0226446</R01><R02>0.183038</R02><R10>-0.0222619</R10><R11>0.9997436</R11><R12>-0.0041459</R12><R20>-0.183085</R20><R21>0</R21><R22>0.9830971</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3060,7 +3196,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000157">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0080245</R00><R01>-0.3444147</R01><R02>0.9387833</R02><R10>0.9951319</R10><R11>0.0894671</R11><R12>0.0413293</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0278686</R00><R01>-0.3410877</R01><R02>0.9396183</R02><R10>0.9803174</R10><R11>0.193118</R11><R12>0.0410274</R12><R20>-0.1954512</R20><R21>0.9199808</R21><R22>0.3397562</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3069,7 +3205,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000158">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4748073</R00><R01>0.8584182</R01><R02>-0.1941038</R02><R10>-0.8742094</R10><R11>0.4854739</R11><R12>0.0085453</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.2014491</R00><R01>0.9792685</R01><R02>0.021246</R02><R10>-0.9794929</R10><R11>-0.2014772</R11><R12>-0.0008337</R12><R20>0.0034642</R20><R21>-0.0209783</R21><R22>0.9997739</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3078,7 +3214,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000159">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0799351</X><Y>0.0991454</Y><Z>-0.0067829</Z><R00>0.985653</R00><R01>-0.0251648</R01><R02>-0.1668978</R02><R10>0.0421314</R10><R11>0.994204</R11><R12>0.0989113</R12><R20>0.1634414</R20><R21>-0.1045239</R21><R22>0.9810003</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0764454</X><Y>-0.0018594</Y><Z>0.1031706</Z><R00>0.9861033</R00><R01>-0.0243167</R01><R02>-0.164344</R02><R10>0.0239858</R10><R11>0.9997043</R11><R12>-0.0039975</R12><R20>0.1643926</R20><R21>0</R21><R22>0.986395</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3087,7 +3223,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000015A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0985689</X><Y>0.0986921</Y><Z>-0.0084136</Z><R00>0.9824105</R00><R01>0.0232022</R01><R02>0.1852869</R02><R10>-0.0420526</R10><R11>0.9942517</R11><R12>0.098464</R12><R20>-0.1819372</R20><R21>-0.1045239</R21><R22>0.977739</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0971437</X><Y>-0.0023629</Y><Z>0.1015399</Z><R00>0.982843</R00><R01>0.0243167</R01><R02>0.1828344</R02><R10>-0.0239065</R10><R11>0.9997043</R11><R12>-0.0044472</R12><R20>-0.1828884</R20><R21>0</R21><R22>0.9831337</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3129,7 +3265,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000015F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0067324</R00><R01>-0.3442983</R01><R02>0.9388362</R02><R10>0.9951415</R10><R11>0.0899142</R11><R12>0.0401103</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0291631</R00><R01>-0.3411624</R01><R02>0.9395519</R02><R10>0.9802817</R10><R11>0.1935451</R11><R12>0.0398512</R12><R20>-0.1954413</R20><R21>0.9198633</R21><R22>0.3400796</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3138,7 +3274,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000160">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4759419</R00><R01>0.8577871</R01><R02>-0.1941147</R02><R10>-0.8735922</R10><R11>0.4865881</R11><R12>0.0082933</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.2002239</R00><R01>0.9795272</R01><R02>0.0209029</R02><R10>-0.9797443</R10><R11>-0.200251</R11><R12>-0.0008073</R12><R20>0.0033951</R20><R21>-0.0206411</R21><R22>0.9997812</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3147,7 +3283,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000161">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0809435</X><Y>0.0989435</Y><Z>-0.0068445</Z><R00>0.9854258</R00><R01>-0.0273306</R01><R02>-0.1678957</R02><R10>0.044357</R10><R11>0.9941467</R11><R12>0.098513</R12><R20>0.1642206</R20><R21>-0.1045246</R21><R22>0.9808701</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0773122</X><Y>-0.0020555</Y><Z>0.1031098</Z><R00>0.9859164</R00><R01>-0.0265775</R01><R02>-0.1651134</R02><R10>0.0262125</R10><R11>0.9996468</R11><R12>-0.0043899</R12><R20>0.1651718</R20><R21>0</R21><R22>0.9862648</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3156,7 +3292,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000162">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0980088</X><Y>0.0984898</Y><Z>-0.008338</Z><R00>0.9824563</R00><R01>0.0255332</R01><R02>0.1847369</R02><R10>-0.0442781</R10><R11>0.9941945</R11><R12>0.0980652</R12><R20>-0.1811605</R20><R21>-0.1045246</R21><R22>0.9778832</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0962682</X><Y>-0.0025595</Y><Z>0.1016164</Z><R00>0.9829305</R00><R01>0.0265775</R01><R02>0.1820474</R02><R10>-0.0261331</R10><R11>0.9996468</R11><R12>-0.0048401</R12><R20>-0.1821117</R20><R21>0</R21><R22>0.9832778</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3198,7 +3334,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000167">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0050008</R00><R01>-0.3441413</R01><R02>0.9389046</R02><R10>0.9951517</R10><R11>0.0905132</R11><R12>0.0384766</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.030898</R00><R01>-0.3412616</R01><R02>0.9394604</R02><R10>0.9802313</R10><R11>0.1941176</R11><R12>0.0382749</R12><R20>-0.1954275</R20><R21>0.9197059</R21><R22>0.3405131</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3207,7 +3343,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000168">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4774614</R00><R01>0.8569391</R01><R02>-0.1941289</R02><R10>-0.8727627</R10><R11>0.48808</R11><R12>0.0079555</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1985813</R00><R01>0.9798712</R01><R02>0.0204429</R02><R10>-0.9800788</R10><R11>-0.1986073</R11><R12>-0.0007726</R12><R20>0.003303</R20><R21>-0.0201891</R21><R22>0.9997907</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3216,7 +3352,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000169">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0825438</X><Y>0.0986752</Y><Z>-0.0069495</Z><R00>0.9850771</R00><R01>-0.0300045</R01><R02>-0.169478</R02><R10>0.0471387</R10><R11>0.9940695</R11><R12>0.0979992</R12><R20>0.1655325</R20><R21>-0.1045257</R21><R22>0.9806495</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0787729</X><Y>-0.0023174</Y><Z>0.103006</Z><R00>0.9856178</R00><R01>-0.029406</R01><R02>-0.1664118</R02><R10>0.0289956</R10><R11>0.9995676</R11><R12>-0.0048956</R12><R20>0.1664838</R20><R21>0</R21><R22>0.9860442</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3225,7 +3361,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000016A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0969682</X><Y>0.0982509</Y><Z>-0.008212</Z><R00>0.9825671</R00><R01>0.0284852</R01><R02>0.1837131</R02><R10>-0.0470649</R10><R11>0.9941142</R11><R12>0.0975804</R12><R20>-0.1798522</R20><R21>-0.1045257</R21><R22>0.9781245</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0947956</X><Y>-0.0027888</Y><Z>0.1017435</Z><R00>0.9830939</R00><R01>0.029406</R01><R02>0.1807252</R02><R10>-0.0289213</R10><R11>0.9995676</R11><R12>-0.0053167</R12><R20>-0.1808034</R20><R21>0</R21><R22>0.9835193</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3267,7 +3403,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000016F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0028489</R00><R01>-0.3439448</R01><R02>0.9389856</R02><R10>0.9951602</R10><R11>0.0912571</R11><R12>0.0364463</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0330537</R00><R01>-0.3413834</R01><R02>0.9393428</R02><R10>0.9801646</R10><R11>0.1948292</R11><R12>0.0363163</R12><R20>-0.1954092</R20><R21>0.9195102</R21><R22>0.3410517</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3276,7 +3412,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000170">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4793474</R00><R01>0.8558817</R01><R02>-0.1941456</R02><R10>-0.8717282</R10><R11>0.4899318</R11><R12>0.0075357</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1965394</R00><R01>0.9802946</R01><R02>0.0198712</R02><R10>-0.9804907</R10><R11>-0.1965639</R11><R12>-0.0007306</R12><R20>0.0031898</R20><R21>-0.0196271</R21><R22>0.9998023</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3285,7 +3421,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000171">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0846444</X><Y>0.0983428</Y><Z>-0.0070934</Z><R00>0.9846181</R00><R01>-0.0331149</R01><R02>-0.1715536</R02><R10>0.0503961</R10><R11>0.9939706</R11><R12>0.0973791</R12><R20>0.1672945</R20><R21>-0.1045269</R21><R22>0.9803503</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.080735</X><Y>-0.0026432</Y><Z>0.1028634</Z><R00>0.9852172</R00><R01>-0.0327213</R01><R02>-0.1681557</R02><R10>0.0322548</R10><R11>0.9994645</R11><R12>-0.0055052</R12><R20>0.1682458</R20><R21>0</R21><R22>0.9857451</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3294,7 +3430,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000172">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0955218</X><Y>0.0979867</Y><Z>-0.0080455</Z><R00>0.9827253</R00><R01>0.0319692</R01><R02>0.1822882</R02><R10>-0.0503342</R10><R11>0.9940081</R11><R12>0.0970277</R12><R20>-0.1780941</R20><R21>-0.1045269</R21><R22>0.978446</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0928176</X><Y>-0.0030387</Y><Z>0.1019112</Z><R00>0.983314</R00><R01>0.0327213</R01><R02>0.1789495</R02><R10>-0.0321925</R10><R11>0.9994645</R11><R12>-0.0058586</R12><R20>-0.1790453</R20><R21>0</R21><R22>0.9838408</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3336,7 +3472,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000177">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>-0.0003425</R00><R01>-0.3437138</R01><R02>0.9390744</R02><R10>0.9951642</R10><R11>0.0921231</R11><R12>0.0340812</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0355644</R00><R01>-0.3415232</R01><R02>0.9392002</R02><R10>0.9800813</R10><R11>0.1956584</R11><R12>0.0340352</R12><R20>-0.1953862</R20><R21>0.9192821</R21><R22>0.341679</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3345,7 +3481,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000178">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4815415</R00><R01>0.854645</R01><R02>-0.194164</R02><R10>-0.8705181</R10><R11>0.4920859</R11><R12>0.0070467</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1941598</R00><R01>0.9807819</R01><R02>0.0192052</R02><R10>-0.9809652</R10><R11>-0.1941827</R11><R12>-0.0006831</R12><R20>0.0030593</R20><R21>-0.0189723</R21><R22>0.9998153</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3354,7 +3490,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000179">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.087117</X><Y>0.0979569</Y><Z>-0.0072691</Z><R00>0.9840694</R00><R01>-0.0365118</R01><R02>-0.1739952</R02><R10>0.0539685</R10><R11>0.9938515</R11><R12>0.0966777</R12><R20>0.1693955</R20><R21>-0.1045279</R21><R22>0.9799893</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0830741</X><Y>-0.0030227</Y><Z>0.1026887</Z><R00>0.9847326</R00><R01>-0.0363609</R01><R02>-0.1702341</R02><R10>0.0358295</R10><R11>0.9993387</R11><R12>-0.006194</R12><R20>0.1703468</R20><R21>0</R21><R22>0.9853842</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3363,7 +3499,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000017A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0937647</X><Y>0.0977151</Y><Z>-0.0078511</Z><R00>0.9829126</R00><R01>0.0358117</R01><R02>0.1805556</R02><R10>-0.0539265</R10><R11>0.993877</R11><R12>0.096439</R12><R20>-0.1759964</R20><R21>-0.1045279</R21><R22>0.9788254</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0904583</X><Y>-0.0032913</Y><Z>0.1021067</Z><R00>0.9835694</R00><R01>0.0363609</R01><R02>0.1768306</R02><R10>-0.0357872</R10><R11>0.9993387</R11><R12>-0.006434</R12><R20>-0.1769476</R20><R21>0</R21><R22>0.9842203</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3405,7 +3541,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000017F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0023907</R00><R01>-0.3434595</R01><R02>0.9391644</R02><R10>0.9951614</R10><R11>0.0930667</R11><R12>0.031502</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0383019</R00><R01>-0.3416733</R01><R02>0.939038</R02><R10>0.9799835</R10><R11>0.196563</R11><R12>0.0315484</R12><R20>-0.1953594</R20><R21>0.9190334</R21><R22>0.3423629</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3414,7 +3550,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000180">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4839305</R00><R01>0.8532904</R01><R02>-0.1941826</R02><R10>-0.8691923</R10><R11>0.4944313</R11><R12>0.0065134</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1915636</R00><R01>0.9813062</R01><R02>0.0184789</R02><R10>-0.9814759</R10><R11>-0.1915848</R11><R12>-0.0006332</R12><R20>0.0029189</R20><R21>-0.0182579</R21><R22>0.9998291</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3423,7 +3559,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000181">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0898033</X><Y>0.0975396</Y><Z>-0.0074674</Z><R00>0.983463</R00><R01>-0.0399573</R01><R02>-0.1766461</R02><R10>0.0576062</R10><R11>0.9937189</R11><R12>0.095939</R12><R20>0.1717031</R20><R21>-0.1045284</R21><R22>0.9795876</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0856428</X><Y>-0.0034346</Y><Z>0.1024909</Z><R00>0.9841913</R00><R01>-0.0400714</R01><R02>-0.1725157</R02><R10>0.0394697</R10><R11>0.9991968</R11><R12>-0.0069185</R12><R20>0.1726544</R20><R21>0</R21><R22>0.9849825</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3432,7 +3568,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000182">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0918045</X><Y>0.0974594</Y><Z>-0.0076426</Z><R00>0.9831148</R00><R01>0.0397465</R01><R02>0.1786211</R02><R10>-0.0575923</R10><R11>0.9937273</R11><R12>0.0958598</R12><R20>-0.1736905</R20><R21>-0.1045284</R21><R22>0.9792372</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0878658</X><Y>-0.0035237</Y><Z>0.1023157</Z><R00>0.9838412</R00><R01>0.0400714</R01><R02>0.1745015</R02><R10>-0.0394556</R10><R11>0.9991968</R11><R12>-0.0069981</R12><R20>-0.1746418</R20><R21>0</R21><R22>0.984632</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3474,7 +3610,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000187">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0051546</R00><R01>-0.3431997</R01><R02>0.9392483</R02><R10>0.9951509</R10><R11>0.0940203</R11><R12>0.0288935</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0410699</R00><R01>-0.3418224</R01><R02>0.9388667</R02><R10>0.9798772</R10><R11>0.1974782</R11><R12>0.0290339</R12><R20>-0.1953301</R20><R21>0.9187817</R21><R22>0.3430544</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3483,7 +3619,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000188">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4863427</R00><R01>0.8519138</R01><R02>-0.1941999</R02><R10>-0.8678449</R10><R11>0.4967993</R11><R12>0.005974</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1889366</R00><R01>0.981829</R01><R02>0.0177442</R02><R10>-0.9819853</R10><R11>-0.1889562</R11><R12>-0.0005847</R12><R20>0.0027788</R20><R21>-0.017535</R21><R22>0.9998424</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3492,7 +3628,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000189">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0925249</X><Y>0.097125</Y><Z>-0.0076767</Z><R00>0.9828427</R00><R01>-0.0431377</R01><R02>-0.1793303</R02><R10>0.0609842</R10><R11>0.9935859</R11><R12>0.0952259</R12><R20>0.1740722</R20><R21>-0.1045284</R21><R22>0.9791694</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.08828</X><Y>-0.0038458</Y><Z>0.1022815</Z><R00>0.9836314</R00><R01>-0.0435219</R01><R02>-0.1748576</R02><R10>0.0428501</R10><R11>0.9990525</R11><R12>-0.0076174</R12><R20>0.1750235</R20><R21>0</R21><R22>0.9845643</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3501,7 +3637,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000018A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0897552</X><Y>0.0972456</Y><Z>-0.0074342</Z><R00>0.9833247</R00><R01>0.0434294</R01><R02>0.176597</R02><R10>-0.0610052</R10><R11>0.9935732</R11><R12>0.0953449</R12><R20>-0.1713213</R20><R21>-0.1045284</R21><R22>0.9796545</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0852035</X><Y>-0.0037117</Y><Z>0.1025241</Z><R00>0.984116</R00><R01>0.0435219</R01><R02>0.1721093</R02><R10>-0.0428713</R10><R11>0.9990525</R11><R12>-0.0074976</R12><R20>-0.1722725</R20><R21>0</R21><R22>0.9850493</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3543,7 +3679,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000018F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0076977</R00><R01>-0.3429583</R01><R02>0.9393191</R02><R10>0.9951345</R10><R11>0.094897</R11><R12>0.0264931</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0436167</R00><R01>-0.3419573</R01><R02>0.9387027</R02><R10>0.9797729</R10><R11>0.1983206</R11><R12>0.0267206</R12><R20>-0.1953014</R20><R21>0.91855</R21><R22>0.3436905</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3552,7 +3688,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000190">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4885589</R00><R01>0.8506415</R01><R02>-0.1942146</R02><R10>-0.8665992</R10><R11>0.4989748</R11><R12>0.0054777</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1865182</R00><R01>0.9823032</R01><R02>0.0170681</R02><R10>-0.9824479</R10><R11>-0.1865363</R11><R12>-0.0005418</R12><R20>0.0026516</R20><R21>-0.0168695</R21><R22>0.9998542</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3561,7 +3697,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000191">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0950965</X><Y>0.0967565</Y><Z>-0.0078839</Z><R00>0.9822607</R00><R01>-0.0457035</R01><R02>-0.1818655</R02><R10>0.0637428</R10><R11>0.9934713</R11><R12>0.0946135</R12><R20>0.1763539</R20><R21>-0.1045277</R21><R22>0.9787611</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0908208</X><Y>-0.0042136</Y><Z>0.1020737</Z><R00>0.9830984</R00><R01>-0.0463453</R01><R02>-0.1771147</R02><R10>0.045611</R10><R11>0.9989255</R11><R12>-0.0082173</R12><R20>0.1773052</R20><R21>0</R21><R22>0.9841559</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3570,7 +3706,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000192">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0877312</X><Y>0.0970982</Y><Z>-0.0072388</Z><R00>0.9835424</R00><R01>0.0464793</R01><R02>0.1745969</R02><R10>-0.0638023</R10><R11>0.9934353</R11><R12>0.0949507</R12><R20>-0.1690375</R20><R21>-0.1045277</R21><R22>0.9800512</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0826395</X><Y>-0.0038341</Y><Z>0.1027188</Z><R00>0.9843871</R00><R01>0.0463453</R01><R02>0.1698061</R02><R10>-0.0456708</R10><R11>0.9989255</R11><R12>-0.0078782</R12><R20>-0.1699888</R20><R21>0</R21><R22>0.985446</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3612,7 +3748,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000197">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0097455</R00><R01>-0.3427623</R01><R02>0.9393716</R02><R10>0.9951166</R10><R11>0.0956026</R11><R12>0.0245601</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0456671</R00><R01>-0.3420642</R01><R02>0.9385662</R02><R10>0.9796843</R10><R11>0.1989992</R11><R12>0.0248583</R12><R20>-0.1952771</R20><R21>0.9183634</R21><R22>0.3442027</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3621,7 +3757,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000198">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4903411</R00><R01>0.8496129</R01><R02>-0.1942254</R02><R10>-0.865592</R10><R11>0.5007241</R11><R12>0.0050781</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.18457</R00><R01>0.9826805</R01><R02>0.0165235</R02><R10>-0.9828161</R10><R11>-0.1845869</R11><R12>-0.0005085</R12><R20>0.0025503</R20><R21>-0.0163335</R21><R22>0.9998633</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3630,7 +3766,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX00000199">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0973417</X><Y>0.0964799</Y><Z>-0.0080747</Z><R00>0.9817712</R00><R01>-0.0473322</R01><R02>-0.1840785</R02><R10>0.0655505</R10><R11>0.9933951</R11><R12>0.094177</R12><R20>0.1784051</R20><R21>-0.1045267</R21><R22>0.9783894</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0931073</X><Y>-0.0044932</Y><Z>0.1018818</Z><R00>0.9826406</R00><R01>-0.0482018</R01><R02>-0.1791479</R02><R10>0.0474201</R10><R11>0.9988376</R11><R12>-0.0086453</R12><R20>0.1793563</R20><R21>0</R21><R22>0.9837842</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3639,7 +3775,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000019A">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0858443</X><Y>0.0970348</Y><Z>-0.0070677</Z><R00>0.9837719</R00><R01>0.0485432</R01><R02>0.1727321</R02><R10>-0.065647</R10><R11>0.9933367</R11><R12>0.0947246</R12><R20>-0.1669829</R20><R21>-0.1045267</R21><R22>0.9804034</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0803361</X><Y>-0.0038768</Y><Z>0.1028888</Z><R00>0.9846523</R00><R01>0.0482018</R01><R02>0.167739</R02><R10>-0.0475172</R10><R11>0.9988376</R11><R12>-0.0080947</R12><R20>-0.1679342</R20><R21>0</R21><R22>0.9857982</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3681,7 +3817,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX0000019F">
 							<Properties>
 								<string name="Name">Right Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0110488</R00><R01>-0.3426368</R01><R02>0.939403</R02><R10>0.9951029</R10><R11>0.0960514</R11><R12>0.0233298</R12><R20>-0.0982246</R20><R21>0.9345449</R21><R22>0.3420201</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.0469721</R00><R01>-0.3421316</R01><R02>0.9384773</R02><R10>0.9796258</R10><R11>0.1994312</R11><R12>0.0236731</R12><R20>-0.195261</R20><R21>0.9182446</R21><R22>0.3445286</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3690,7 +3826,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000001A0">
 							<Properties>
 								<string name="Name">Left Arm</string>
-								<CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0.4914744</R00><R01>0.8489564</R01><R02>-0.1942319</R02><R10>-0.8649491</R10><R11>0.5018364</R11><R12>0.0048237</R12><R20>0.1015678</R20><R21>0.16563</R21><R22>0.9809438</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0</X><Y>-0.55</Y><Z>0</Z><R00>-0.1833296</R00><R01>0.9829184</R01><R02>0.0161769</R02><R10>-0.9830484</R10><R11>-0.1833458</R11><R12>-0.0004879</R12><R20>0.0024864</R20><R21>-0.0159922</R21><R22>0.999869</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3699,7 +3835,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000001A1">
 							<Properties>
 								<string name="Name">Right Leg</string>
-								<CoordinateFrame name="CFrame"><X>-0.0991083</X><Y>0.0963334</Y><Z>-0.0082354</Z><R00>0.9814205</R00><R01>-0.0477971</R01><R02>-0.1858203</R02><R10>0.0661723</R10><R11>0.993373</R11><R12>0.0939754</R12><R20>0.1800971</R20><R21>-0.1045255</R21><R22>0.9780795</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>-0.0949974</X><Y>-0.0046461</Y><Z>0.1017199</Z><R00>0.9823001</R00><R01>-0.0488498</R01><R02>-0.1808322</R02><R10>0.0480425</R10><R11>0.9988061</R11><R12>-0.0088442</R12><R20>0.1810484</R20><R21>0</R21><R22>0.9834742</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>
@@ -3708,7 +3844,7 @@ tool.Unequipped:Connect(stopTrack)
 						<Item class="Pose" referent="RBX000001A2">
 							<Properties>
 								<string name="Name">Left Leg</string>
-								<CoordinateFrame name="CFrame"><X>0.0842011</X><Y>0.0970625</Y><Z>-0.0069297</Z><R00>0.9840146</R00><R01>0.0493672</R01><R02>0.1711088</R02><R10>-0.0662992</R10><R11>0.9932962</R11><R12>0.0946949</R12><R20>-0.1652869</R20><R21>-0.1045255</R21><R22>0.9806909</R22></CoordinateFrame>
+								<CoordinateFrame name="CFrame"><X>0.0784385</X><Y>-0.0038363</Y><Z>0.1030256</Z><R00>0.9849084</R00><R01>0.0488498</R01><R02>0.1660397</R02><R10>-0.0481701</R10><R11>0.9988061</R11><R12>-0.0081207</R12><R20>-0.1662382</R20><R21>0</R21><R22>0.9860856</R22></CoordinateFrame>
 								<token name="EasingDirection">0</token>
 								<token name="EasingStyle">0</token>
 								<float name="Weight">1</float>

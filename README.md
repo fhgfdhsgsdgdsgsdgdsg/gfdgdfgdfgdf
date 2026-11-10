@@ -16,7 +16,7 @@ that the animation is built around.
 | File | What it is |
 |---|---|
 | `ThompsonIdle_R6.rbxmx` | The animation: an editable `KeyframeSequence` (R6, `Loop = true`, `Priority = Action`, 5.0 s, 26 keyframes, Linear easing). |
-| `Thompson.rbxmx` | A `Tool` containing the Thompson (54 welded parts), the `ThompsonIdleController` LocalScript, an `IdleAnimationId` StringValue and a copy of the KeyframeSequence. |
+| `Thompson.rbxmx` | A `Tool` containing the Thompson (58 welded parts), the `ThompsonIdleController` LocalScript, an `IdleAnimationId` StringValue and a copy of the KeyframeSequence. |
 | `src/ThompsonIdleController.client.luau` | Source of the LocalScript embedded in the Tool. |
 
 ### Use it in Roblox Studio
@@ -42,9 +42,10 @@ from the editor's *…* menu. Every keyframe keys all six R6 joints, so any pose
 
 * **R6 only:** six parts and the six stock Motor6Ds (`RootJoint`, `Neck`, `Left/Right Shoulder`, `Left/Right Hip`)
   with Roblox's default C0/C1. Nothing is added: no elbows, knees, wrists or extra Motor6Ds. Arms and legs stay
-  rigid blocks posed only through their existing joints. The hip poses also carry a small offset that keeps the
-  splayed feet resting on the floor.
-* **Weapon attachment:** a normal Tool. `Tool.Grip = CFrame.new(0, -0.69, 0.09, 1, 0, 0, 0, 0.9945219, 0.1045285, 0, -0.1045285, 0.9945219)`
+  rigid blocks posed only through their existing joints. The Left Shoulder pose carries a constant 0.55-stud
+  downward offset (the lowered shoulder in the references). The hip poses carry a small outward offset that sets
+  the feet apart.
+* **Weapon attachment:** a normal Tool. `Tool.Grip = CFrame.new(0, -0.69, 0.09, 1, 0, 0, 0, 0.9781476, 0.2079117, 0, -0.2079117, 0.9781476)`
   puts the pistol grip in the right hand. All other parts are `Weld`ed to `Handle` (the receiver), so the gun is
   one rigid body.
 * **Thompson model:** built only from Parts, Cylinders and one WedgePart, using Roblox materials with no
@@ -54,10 +55,13 @@ from the editor's *…* menu. Every keyframe keys all six R6 joints, so any pose
   The stock length is fitted so the butt plate rests against the chest without entering it.
 * **Pose** (taken from the three references, read as one 3D pose): the torso and legs are bladed about 70° right
   of the aim line. The head turns back to look down the barrel, which points along `HumanoidRootPart.LookVector`.
-  The right hand sits on the pistol grip in front of the chest. The left arm angles about 30° down to the foregrip,
-  which enters the top of the hand, so the support arm sits below the gun. The gun is level at shoulder/chin height.
-  The two hand contacts are 1.08 studs apart along the gun, with the left one 0.25 studs lower. The legs are set
-  apart: each is rolled 6° outward at the hip and turned 10° toes-out, with the inner sole edges on the floor.
+  The right hand sits on the pistol grip in front of the chest, with the right arm about 12° below horizontal.
+  The left shoulder is lowered 0.55 studs, so the left arm starts well below the top of the torso and rises
+  about 9° toward the gun. Its hand sits under the barrel, with its end face on the vertical foregrip, which
+  shows half out of the hand as in the references. The gun is level, just below shoulder height (bore 0.11 studs
+  under the top of the torso). The two hand contacts are 1.41 studs apart along the gun. The legs are strictly
+  vertical with soles flat on the floor. Each is turned 10° toes-out and shifted 0.11 studs outward, so the legs
+  stand apart and their corners poke slightly out from under the torso.
 
 ## The idle motion
 
@@ -67,7 +71,7 @@ All motion repeats exactly every 5.0 s, and the last keyframe equals the first.
 |---|---|
 | Breathing | Torso pitch ±0.8°, pivoting on the hip line, with a slightly faster inhale than exhale. |
 | Torso sway | Yaw ±0.55° about the hip centre. |
-| Shoulders and gun | Both arms lift ±0.6°, lagging the breath by 0.18 s. They rotate about the shared shoulder axis, so arms and gun move as one rigid unit and neither hand slides. Muzzle travel is 0.08 studs. |
+| Shoulders and gun | Both arms lift ±0.6°, lagging the breath by 0.18 s. They rotate about the line through both shoulder pivots, so arms and gun move as one rigid unit, neither hand slides, and each arm still turns only about its own shoulder. Muzzle travel is 0.09 studs. |
 | Head | A small lagged nod (world pitch −0.34°…+0.30°). The head partly cancels the torso sway (world yaw ±0.19°), so the gaze stays on the barrel. Head travel is 0.05 studs. |
 | Legs | Static in world space (spread stance above). The hip joints counter the torso sway, so feet never slide or lift. |
 | Hair / accessories | Ride rigidly on the Head (no extra rig). |
@@ -88,8 +92,8 @@ weld formula. It checks:
 
 * only the R6 joints are used, and the sequence loops with the last keyframe equal to the first;
 * both hands stay locked to the gun (max error < 1e-6 studs);
-* the feet stay planted (< 1e-5 studs);
-* arms and head only rotate about their joints;
+* the feet stay planted (< 1e-5 studs) and the legs stay strictly vertical;
+* arms turn only about their (fixed) shoulder pivots, and the head only about the neck;
 * the stock never enters the torso or head;
 * the motion stays subtle and has no velocity jump at the loop seam bigger than at any other keyframe.
 
