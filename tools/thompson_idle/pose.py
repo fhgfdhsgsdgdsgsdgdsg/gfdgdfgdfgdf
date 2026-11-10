@@ -31,8 +31,13 @@ class Params:
     head_yaw: float = D(0.0)  # relative to the aim line
     right_arm: tuple[float, float, float] = (D(0), D(84), D(0))  # yaw, pitch, roll (aim space)
     left_arm_roll: float = D(0)
-    hand_point: tuple[float, float, float] = (0.0, -1.0, 0.0)  # grip point in arm space
-    leg_splay: float = D(0.0)  # each leg rolled outward (rigid legs: >0 tips the soles)
+    hand_point: tuple[float, float, float] = (0.0, -1.0, 0.0)  # right hand on the pistol grip (arm space)
+    # Left hand: the foregrip enters the top of the hand (arm -Z faces up once the arm is raised),
+    # so the support arm sits lower than the gun, as in the references.
+    left_hand_point: tuple[float, float, float] = (0.0, -0.8, -0.32)
+    left_grip_drop: float = 0.25  # left contact height below the pistol-grip hold point (studs)
+    leg_splay: float = D(6.0)  # each leg rolled outward at the R6 hip pivot (feet apart)
+    leg_toe_out: float = D(10.0)  # each leg yawed outward (toes point slightly apart)
     # Idle motion
     period: float = 5.0
     key_step: float = 0.2
@@ -63,15 +68,15 @@ def _arm_world(side: str, yaw: float, pitch: float, roll: float, torso: np.ndarr
 
 
 def _solve_left(params: Params, torso: np.ndarray, target: np.ndarray) -> tuple[float, float]:
-    """Yaw/pitch of the left arm so its hold point matches target in x and y."""
-    hp = np.array(params.hand_point)
+    """Yaw/pitch of the left arm so its foregrip contact matches target in x and y (z sets grip spacing)."""
+    hp = np.array(params.left_hand_point)
 
     def f(v):
         arm = _arm_world("Left", v[0], v[1], params.left_arm_roll, torso)
         h = cf.point(arm, hp)
         return np.array([h[0] - target[0], h[1] - target[1]])
 
-    v = np.array([D(-20), D(88)])
+    v = np.array([D(-60), D(70)])
     for _ in range(50):
         fv = f(v)
         if np.linalg.norm(fv) < 1e-12:
@@ -94,13 +99,17 @@ def torso_world(params: Params, pitch: float = 0.0, yaw: float = 0.0) -> np.ndar
 
 
 def legs_world(params: Params) -> dict[str, np.ndarray]:
+    """Static legs: toes turned out, rolled outward at the hip pivot, then raised so the
+    lowest sole edge rests exactly on the floor (3 studs below the HumanoidRootPart)."""
     base = cf.ry(-params.body_yaw)
     out = {}
     for side, sx in (("Right", 1.0), ("Left", -1.0)):
-        hip = np.array([sx * 1.0, -1.0, 0.0])
-        leg = cf.translate(sx * 0.5, -2.0, 0.0)
-        splay = cf.about_point(cf.rz(sx * params.leg_splay), hip + np.array([-sx * 0.5, 0.0, 0.0]))
-        out[f"{side} Leg"] = base @ splay @ leg
+        rest = cf.translate(sx * 0.5, -2.0, 0.0)
+        toe = cf.about_point(cf.ry(-sx * params.leg_toe_out), (sx * 0.5, -1.0, 0.0))
+        splay = cf.about_point(cf.rz(sx * params.leg_splay), (sx * 1.0, -1.0, 0.0))
+        leg = splay @ toe @ rest
+        lowest = min(cf.point(leg, (x, -1.0, z))[1] for x in (-0.5, 0.5) for z in (-0.5, 0.5))
+        out[f"{side} Leg"] = base @ cf.translate(0.0, -rig.HRP_HEIGHT - lowest, 0.0) @ leg
     return out
 
 
@@ -117,14 +126,15 @@ def build_base(params: Params | None = None) -> BasePose:
     ry_, rp_, rr_ = params.right_arm
     rarm = _arm_world("Right", ry_, rp_, rr_, torso)
     p_r = cf.point(rarm, hp)
-    ly, lp = _solve_left(params, torso, p_r)
+    target_l = p_r - np.array([0.0, params.left_grip_drop, 0.0])
+    ly, lp = _solve_left(params, torso, target_l)
     larm = _arm_world("Left", ly, lp, params.left_arm_roll, torso)
-    p_l = cf.point(larm, hp)
+    p_l = cf.point(larm, np.array(params.left_hand_point))
     d = float(p_r[2] - p_l[2])
     gun_cf = cf.translate(*p_r)  # gun axes == aim axes: barrel along -Z, level
     head = head_world(params, torso)
     stock_back = stock_room(gun_cf, torso, head)
-    parts = gun.build(d, stock_back)
+    parts = gun.build(d, stock_back, params.left_grip_drop)
     handle = gun_cf @ gun.handle_local(parts)
     grip = cf.inv(handle) @ rarm @ rig.RIGHT_GRIP_C0
     world = {"HumanoidRootPart": np.eye(4), "Torso": torso, "Head": head,

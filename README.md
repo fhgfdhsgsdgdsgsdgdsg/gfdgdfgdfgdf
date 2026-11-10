@@ -16,7 +16,7 @@ that the animation is built around.
 | File | What it is |
 |---|---|
 | `ThompsonIdle_R6.rbxmx` | The animation: an editable `KeyframeSequence` (R6, `Loop = true`, `Priority = Action`, 5.0 s, 26 keyframes, Linear easing). |
-| `Thompson.rbxmx` | A `Tool` containing the Thompson (59 welded parts), the `ThompsonIdleController` LocalScript, an `IdleAnimationId` StringValue and a copy of the KeyframeSequence. |
+| `Thompson.rbxmx` | A `Tool` containing the Thompson (54 welded parts), the `ThompsonIdleController` LocalScript, an `IdleAnimationId` StringValue and a copy of the KeyframeSequence. |
 | `src/ThompsonIdleController.client.luau` | Source of the LocalScript embedded in the Tool. |
 
 ### Use it in Roblox Studio
@@ -42,7 +42,8 @@ from the editor's *…* menu. Every keyframe keys all six R6 joints, so any pose
 
 * **R6 only:** six parts and the six stock Motor6Ds (`RootJoint`, `Neck`, `Left/Right Shoulder`, `Left/Right Hip`)
   with Roblox's default C0/C1. Nothing is added: no elbows, knees, wrists or extra Motor6Ds. Arms and legs stay
-  rigid blocks that only rotate about their existing joints.
+  rigid blocks posed only through their existing joints. The hip poses also carry a small offset that keeps the
+  splayed feet resting on the floor.
 * **Weapon attachment:** a normal Tool. `Tool.Grip = CFrame.new(0, -0.69, 0.09, 1, 0, 0, 0, 0.9945219, 0.1045285, 0, -0.1045285, 0.9945219)`
   puts the pistol grip in the right hand. All other parts are `Weld`ed to `Handle` (the receiver), so the gun is
   one rigid body.
@@ -53,8 +54,10 @@ from the editor's *…* menu. Every keyframe keys all six R6 joints, so any pose
   The stock length is fitted so the butt plate rests against the chest without entering it.
 * **Pose** (taken from the three references, read as one 3D pose): the torso and legs are bladed about 70° right
   of the aim line. The head turns back to look down the barrel, which points along `HumanoidRootPart.LookVector`.
-  The right hand sits on the pistol grip in front of the chest and the left arm reaches forward to the foregrip.
-  The gun is level at shoulder/chin height. The two hand points are 1.42 studs apart.
+  The right hand sits on the pistol grip in front of the chest. The left arm angles about 30° down to the foregrip,
+  which enters the top of the hand, so the support arm sits below the gun. The gun is level at shoulder/chin height.
+  The two hand contacts are 1.08 studs apart along the gun, with the left one 0.25 studs lower. The legs are set
+  apart: each is rolled 6° outward at the hip and turned 10° toes-out, with the inner sole edges on the floor.
 
 ## The idle motion
 
@@ -64,9 +67,9 @@ All motion repeats exactly every 5.0 s, and the last keyframe equals the first.
 |---|---|
 | Breathing | Torso pitch ±0.8°, pivoting on the hip line, with a slightly faster inhale than exhale. |
 | Torso sway | Yaw ±0.55° about the hip centre. |
-| Shoulders and gun | Both arms lift ±0.6°, lagging the breath by 0.18 s. They rotate about the shared shoulder axis, so arms and gun move as one rigid unit and neither hand slides. Muzzle travel is 0.09 studs. |
+| Shoulders and gun | Both arms lift ±0.6°, lagging the breath by 0.18 s. They rotate about the shared shoulder axis, so arms and gun move as one rigid unit and neither hand slides. Muzzle travel is 0.08 studs. |
 | Head | A small lagged nod (world pitch −0.34°…+0.30°). The head partly cancels the torso sway (world yaw ±0.19°), so the gaze stays on the barrel. Head travel is 0.05 studs. |
-| Legs | Static in world space. The hip joints absorb the torso sway (offset ≤ 0.0096 studs), so feet never slide or lift. |
+| Legs | Static in world space (spread stance above). The hip joints counter the torso sway, so feet never slide or lift. |
 | Hair / accessories | Ride rigidly on the Head (no extra rig). |
 
 ## Regenerate, verify, render

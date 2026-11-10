@@ -56,6 +56,7 @@ def main() -> int:
     seq = Sequence.load(str(seq_path))
     grip = _tool_grip(tool_path)
     hp = np.array(base.params.hand_point)
+    drop = base.params.left_grip_drop
     hrp = cf.translate(0, rig.HRP_HEIGHT, 0)
     results: list[tuple[str, bool, str]] = []
 
@@ -90,7 +91,8 @@ def main() -> int:
         w = rig.fk(tr, hrp)
         g = gun_world_from_arm(w["Right Arm"], grip, base.parts)
         right_err = max(right_err, float(np.linalg.norm(cf.point(w["Right Arm"], hp) - cf.point(g, (0, 0, 0)))))
-        left_err = max(left_err, float(np.linalg.norm(cf.point(w["Left Arm"], hp) - cf.point(g, (0, 0, -base.d)))))
+        left_err = max(left_err, float(np.linalg.norm(
+            cf.point(w["Left Arm"], base.params.left_hand_point) - cf.point(g, gun.hold_points(base.d, drop)["left"]))))
         feet = np.array([cf.point(w[leg], (sx * 0.5, -1, sz * 0.5)) for leg in ("Right Leg", "Left Leg")
                          for sx in (-1, 1) for sz in (-1, 1)])
         if feet0 is None:

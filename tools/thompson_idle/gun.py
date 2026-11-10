@@ -50,8 +50,9 @@ ALONG_Z = cf.ry(math.pi / 2)  # cylinder axis (local X) -> gun Z
 ALONG_Y = cf.rz(math.pi / 2)  # cylinder axis (local X) -> gun Y
 
 
-def build(d: float, stock_back: float = 1.28) -> list[GunPart]:
-    """Parts for grip spacing `d` and butt position `stock_back` (gun-local +Z)."""
+def build(d: float, stock_back: float = 1.28, fore_drop: float = 0.0) -> list[GunPart]:
+    """Parts for grip spacing `d`, butt position `stock_back` (gun-local +Z) and the
+    left-hand contact `fore_drop` studs below the pistol-grip hold point."""
     p: list[GunPart] = []
 
     def add(name, shape, size, cframe, color, material="Metal"):
@@ -97,7 +98,7 @@ def build(d: float, stock_back: float = 1.28) -> list[GunPart]:
     # --- Barrel: finned section, plain barrel, Cutts compensator -----------
     fin_start = rec_front - 0.02
     fin_end = -(d + 0.40)
-    muzzle = -(d + 0.95)
+    muzzle = -max(d + 0.95, 2.35)  # overall length independent of the hand spacing
     comp_len = 0.26
     barrel_core_len = abs(muzzle - rec_front) - comp_len
     add("Barrel", "Cylinder", (barrel_core_len, 0.11, 0.11),
@@ -117,15 +118,21 @@ def build(d: float, stock_back: float = 1.28) -> list[GunPart]:
     add("FrontSight", "Block", (0.025, 0.09, 0.07), _at(0, BORE_Y + 0.12, muzzle + 0.21), STEEL_LIGHT)
 
     # --- Vertical foregrip at the support-hand point -----------------------
+    # Its raked axis passes exactly through the left-hand contact (0, -fore_drop, -d);
+    # the lower end sits inside the hand.
     fz = -d
     add("ForegripCollar", "Cylinder", (0.12, 0.29, 0.29), _at(0, BORE_Y, fz, ALONG_Z), GUNMETAL)
     add("ForegripMount", "Block", (0.12, 0.10, 0.14), _at(0, BORE_Y - 0.15, fz), GUNMETAL)
-    fore_rake = cf.rx(math.radians(4))
-    add("Foregrip", "Block", (0.19, 1.12, 0.25), _at(0, 0.03, fz, fore_rake), WALNUT, "Wood")
+    rake = math.radians(4)
+    yh = -fore_drop
+    top, bottom = BORE_Y - 0.10, yh - 0.12
+    yc = (top + bottom) / 2
+    grip_cf = _at(0, yc, fz - (yh - yc) * math.tan(rake), cf.rx(rake))
+    add("Foregrip", "Block", (0.19, (top - bottom) / math.cos(rake), 0.25), grip_cf, WALNUT, "Wood")
+    t_contact = (yh - yc) / math.cos(rake)
     for i in range(3):
         add(f"ForegripRidge{i + 1}", "Block", (0.17, 0.05, 0.03),
-            _at(0, -0.30 + i * 0.12, fz - 0.135, fore_rake), WALNUT_DARK, "Wood")
-    add("ForegripKnob", "Block", (0.23, 0.08, 0.29), _at(0, -0.56, fz - 0.03, fore_rake), WALNUT, "Wood")
+            grip_cf @ cf.translate(0, t_contact + 0.30 + i * 0.12, -0.135), WALNUT_DARK, "Wood")
 
     # --- Buttstock ----------------------------------------------------------
     # Length is fitted per pose so the butt plate rests just short of the chest.
@@ -143,8 +150,8 @@ def build(d: float, stock_back: float = 1.28) -> list[GunPart]:
     return p
 
 
-def hold_points(d: float) -> dict[str, np.ndarray]:
-    return {"right": np.zeros(3), "left": np.array([0.0, 0.0, -d])}
+def hold_points(d: float, fore_drop: float = 0.0) -> dict[str, np.ndarray]:
+    return {"right": np.zeros(3), "left": np.array([0.0, -fore_drop, -d])}
 
 
 def handle_local(parts: list[GunPart]) -> np.ndarray:
